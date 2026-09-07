@@ -14,7 +14,6 @@ body {
   background-color: #f4f1ea;
 }
 
-/* ===== NAVBAR ===== */
 .navbar {
   position: sticky;
   top: 0;
@@ -59,15 +58,9 @@ body {
 }
 
 .navbar-links {
-  display: none;
+  display: flex;
   gap: 0.25rem;
   list-style: none;
-}
-
-@media (min-width: 768px) {
-  .navbar-links {
-    display: flex;
-  }
 }
 
 .navbar-link {
@@ -76,14 +69,59 @@ body {
   font-size: 0.875rem;
   color: #a8c8a8;
   border-bottom: 2px solid transparent;
+  cursor: pointer;
 }
 
-.navbar-link.active {
+.navbar-link:hover {
+  color: #e8f5e8;
+}
+
+#vista-inicio:checked ~ .navbar .tab-inicio,
+#vista-nosotros:checked ~ .navbar .tab-nosotros,
+#vista-contacto:checked ~ .navbar .tab-contacto {
   color: #e8f5e8;
   border-bottom-color: #8ab58a;
 }
 
-/* ===== FOOTER ===== */
+.view-switch {
+  position: absolute;
+  opacity: 0;
+  width: 1px;
+  height: 1px;
+  pointer-events: none;
+}
+
+.vista {
+  display: none;
+}
+
+#vista-inicio:checked ~ main .vista-inicio {
+  display: block;
+}
+
+#vista-nosotros:checked ~ main .vista-nosotros {
+  display: block;
+}
+
+#vista-contacto:checked ~ main .vista-contacto {
+  display: block;
+}
+
+@media (max-width: 640px) {
+  .navbar-inner {
+    padding: 0 0.5rem;
+  }
+
+  .navbar-brand-title {
+    font-size: 1rem;
+  }
+
+  .navbar-link {
+    padding: 0.5rem 0.5rem;
+    font-size: 0.8rem;
+  }
+}
+
 .footer {
   background-color: #2e3d2e;
   color: #a8c8a8;
@@ -138,6 +176,11 @@ body {
 
 .footer-link {
   color: inherit;
+  cursor: pointer;
+}
+
+.footer-link:hover {
+  color: #e8f5e8;
 }
 
 .footer-bottom {
@@ -148,7 +191,6 @@ body {
   background-color: #263226;
 }
 
-/* ===== VIDEO ===== */
 .video-section {
   background-color: #2e3d2e;
   padding: 1.5rem 1rem;
@@ -185,7 +227,6 @@ body {
   display: block;
 }
 
-/* ===== SECTIONS ===== */
 .section {
   padding: 3.5rem 1rem;
 }
@@ -239,7 +280,6 @@ body {
   text-align: center;
 }
 
-/* ===== PLANTS ===== */
 .plant-list {
   list-style: none;
   margin-bottom: 1.5rem;
@@ -256,7 +296,6 @@ body {
   font-style: italic;
 }
 
-/* ===== GALLERY ===== */
 .gallery-grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -299,7 +338,6 @@ body {
   line-height: 1.4;
 }
 
-/* ===== CTA ===== */
 .cta {
   text-align: center;
 }
@@ -325,7 +363,6 @@ body {
   font-style: italic;
 }
 
-/* ===== PAGE HEADER ===== */
 .page-header {
   background-color: #2e3d2e;
   padding: 3rem 1rem;
@@ -344,7 +381,6 @@ body {
   margin-top: 0.5rem;
 }
 
-/* ===== HISTORIA ===== */
 .historia-grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -372,7 +408,6 @@ body {
   display: block;
 }
 
-/* ===== VALORES ===== */
 .valores-grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -403,7 +438,6 @@ body {
   line-height: 1.4;
 }
 
-/* ===== TIMELINE ===== */
 .timeline {
   display: flex;
   flex-direction: column;
@@ -431,7 +465,6 @@ body {
   line-height: 1.625;
 }
 
-/* ===== EQUIPO ===== */
 .equipo-grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -460,7 +493,6 @@ body {
   margin-top: 0.5rem;
 }
 
-/* ===== CONTACT ===== */
 .contact-grid {
   display: grid;
   grid-template-columns: 1fr;

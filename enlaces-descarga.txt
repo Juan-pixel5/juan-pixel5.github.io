@@ -1,0 +1,37 @@
+ENLACES DE DESCARGA - SUPER CVORT / Verde Andino
+
+IMAGENES - pagina de Pexels (abrir y pulsar Descargar gratis):
+https://www.pexels.com/photo/15699946/
+https://www.pexels.com/photo/8280971/
+https://www.pexels.com/photo/12659072/
+https://www.pexels.com/photo/1252896/
+https://www.pexels.com/photo/37992842/
+https://www.pexels.com/photo/6777855/
+
+IMAGENES - descarga directa en alta calidad:
+https://images.pexels.com/photos/15699946/pexels-photo-15699946.jpeg?auto=compress&cs=tinysrgb&w=1200
+https://images.pexels.com/photos/8280971/pexels-photo-8280971.jpeg?auto=compress&cs=tinysrgb&w=1200
+https://images.pexels.com/photos/12659072/pexels-photo-12659072.jpeg?auto=compress&cs=tinysrgb&w=1200
+https://images.pexels.com/photos/1252896/pexels-photo-1252896.jpeg?auto=compress&cs=tinysrgb&w=1200
+https://images.pexels.com/photos/37992842/pexels-photo-37992842.jpeg?auto=compress&cs=tinysrgb&w=1200
+https://images.pexels.com/photos/6777855/pexels-photo-6777855.jpeg?auto=compress&cs=tinysrgb&w=1200
+
+NOMBRES SUGERIDOS AL GUARDAR:
+15699946 -> palma-cera.jpg
+8280971 -> orquidea-cattleya.jpg
+12659072 -> helecho-culantrillo.jpg
+1252896 -> bromelia-guzmania.jpg
+37992842 -> suculenta-corona-fraile.jpg
+6777855 -> vivero.jpg
+
+VIDEO - ver en YouTube:
+https://www.youtube.com/watch?v=Es7NnI8WI3Y
+
+VIDEO - enlace que usa la pagina (embed):
+https://www.youtube.com/embed/Es7NnI8WI3Y
+
+VIDEO - miniatura en alta calidad:
+https://img.youtube.com/vi/Es7NnI8WI3Y/maxresdefault.jpg
+
+VIDEO - descargar MP4 con yt-dlp:
+yt-dlp https://www.youtube.com/watch?v=Es7NnI8WI3Y -o "assets/video/palmas-cocora.mp4"

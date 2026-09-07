@@ -8,7 +8,10 @@
 </head>
 <body>
 
-  <!-- NAVBAR -->
+  <input class="view-switch" type="radio" name="vista" id="vista-inicio" checked />
+  <input class="view-switch" type="radio" name="vista" id="vista-nosotros" />
+  <input class="view-switch" type="radio" name="vista" id="vista-contacto" />
+
   <nav class="navbar">
     <div class="navbar-inner">
       <div class="navbar-brand">
@@ -16,325 +19,316 @@
         <span class="navbar-brand-sub">| Vivero Colombiano</span>
       </div>
       <ul class="navbar-links">
-        <li><span class="navbar-link active">Inicio</span></li>
-        <li><span class="navbar-link">Nosotros</span></li>
-        <li><span class="navbar-link">Contactanos</span></li>
+        <li><label class="navbar-link tab-inicio" for="vista-inicio">Inicio</label></li>
+        <li><label class="navbar-link tab-nosotros" for="vista-nosotros">Nosotros</label></li>
+        <li><label class="navbar-link tab-contacto" for="vista-contacto">Contactanos</label></li>
       </ul>
     </div>
   </nav>
 
-  <!-- ========== INICIO ========== -->
-
-  <!-- MISION Y VISION -->
-  <section class="section">
-    <div class="container-md">
-      <h2 class="section-title">Mision</h2>
-      <div class="text-body mb">
-        Ofrecer plantas nativas y ornamentales de alta calidad, cultivadas de manera responsable en Colombia, para embellecer hogares, empresas y espacios publicos. Buscamos promover el cuidado del medio ambiente, la conservacion de la biodiversidad colombiana y la conexion de las personas con la naturaleza, brindando productos y asesoria que contribuyan al desarrollo sostenible del pais.
-      </div>
-      <h2 class="section-title">Vision</h2>
-      <div class="text-body">
-        Para el ano 2035, ser reconocidos como una de las empresas lideres en Colombia en la produccion y comercializacion de plantas nativas y ornamentales, destacandonos por nuestro compromiso con la sostenibilidad, la proteccion de los ecosistemas y la innovacion en practicas de cultivo. Aspiramos a contribuir a la creacion de ciudades y comunidades mas verdes, fomentando una cultura de respeto y conservacion de la riqueza natural colombiana.
-      </div>
-    </div>
-  </section>
-
-  <!-- PLANTAS -->
-  <section class="section section-alt">
-    <div class="container-md">
-      <h2 class="section-title">Nuestras plantas colombianas</h2>
-      <ul class="plant-list">
-        <li>Palma de cera (arbol nacional)</li>
-        <li>Orquidea cattleya (flor nacional)</li>
-        <li>Helecho culantrillo</li>
-        <li>Bromelia guzmania</li>
-        <li>Suculenta corona de fraile</li>
-      </ul>
-      <p class="plant-note">Mas de 20 variedades nativas</p>
-    </div>
-  </section>
-
-  <!-- GALERIA -->
-  <section class="section">
-    <div class="container">
-      <h2 class="section-title">Galeria de nuestras especies</h2>
-      <div class="gallery-grid">
-        <div class="gallery-item">
-          <img src="https://images.pexels.com/photos/15699946/pexels-photo-15699946.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=400&w=600" alt="Palma de Cera" />
-          <div class="gallery-item-content">
-            <h3>Palma de Cera</h3>
-            <p>Arbol nacional de Colombia. Puede alcanzar hasta 60 metros de altura y crece en los valles andinos entre 2.500 y 3.000 m.s.n.m.</p>
+  <main>
+    <div class="vista vista-inicio">
+      <section class="section">
+        <div class="container-md">
+          <h2 class="section-title">Mision</h2>
+          <div class="text-body mb">
+            Ofrecer plantas nativas y ornamentales de alta calidad, cultivadas de manera responsable en Colombia, para embellecer hogares, empresas y espacios publicos. Buscamos promover el cuidado del medio ambiente, la conservacion de la biodiversidad colombiana y la conexion de las personas con la naturaleza, brindando productos y asesoria que contribuyan al desarrollo sostenible del pais.
+          </div>
+          <h2 class="section-title">Vision</h2>
+          <div class="text-body">
+            Para el ano 2035, ser reconocidos como una de las empresas lideres en Colombia en la produccion y comercializacion de plantas nativas y ornamentales, destacandonos por nuestro compromiso con la sostenibilidad, la proteccion de los ecosistemas y la innovacion en practicas de cultivo. Aspiramos a contribuir a la creacion de ciudades y comunidades mas verdes, fomentando una cultura de respeto y conservacion de la riqueza natural colombiana.
           </div>
         </div>
-        <div class="gallery-item">
-          <img src="https://images.pexels.com/photos/8280971/pexels-photo-8280971.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=400&w=600" alt="Orquidea Cattleya" />
-          <div class="gallery-item-content">
-            <h3>Orquidea Cattleya</h3>
-            <p>Flor nacional de Colombia. Reconocida por sus petalos grandes y coloridos, simboliza la belleza y riqueza natural del pais.</p>
-          </div>
-        </div>
-        <div class="gallery-item">
-          <img src="https://images.pexels.com/photos/12659072/pexels-photo-12659072.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=400&w=600" alt="Helecho Culantrillo" />
-          <div class="gallery-item-content">
-            <h3>Helecho Culantrillo</h3>
-            <p>Helecho delicado de hojas finas y elegantes. Ideal para interiores humedos y sombreados, aporta frescura a cualquier espacio.</p>
-          </div>
-        </div>
-        <div class="gallery-item">
-          <img src="https://images.pexels.com/photos/1252896/pexels-photo-1252896.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=400&w=600" alt="Bromelia Guzmania" />
-          <div class="gallery-item-content">
-            <h3>Bromelia Guzmania</h3>
-            <p>Planta tropical con bracteas rojas, naranjas o amarillas. Crece en los bosques humedos colombianos y es perfecta para decoracion.</p>
-          </div>
-        </div>
-        <div class="gallery-item">
-          <img src="https://images.pexels.com/photos/37992842/pexels-photo-37992842.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=400&w=600" alt="Suculenta Corona de Fraile" />
-          <div class="gallery-item-content">
-            <h3>Suculenta Corona de Fraile</h3>
-            <p>Suculenta resistente y de bajo mantenimiento. Su forma compacta y textura unica la convierten en una joya para jardines secos.</p>
-          </div>
-        </div>
-        <div class="gallery-item">
-          <img src="https://images.pexels.com/photos/6777855/pexels-photo-6777855.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=400&w=600" alt="Nuestro Vivero" />
-          <div class="gallery-item-content">
-            <h3>Nuestro Vivero</h3>
-            <p>Cultivamos con amor en el corazon de los Andes colombianos. Visitanos y descubre mas de 20 variedades nativas listas para tu hogar.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+      </section>
 
-  <!-- CTA -->
-  <section class="section section-alt">
-    <div class="container-xs cta">
-      <p class="cta-brand">Verde Andino</p>
-      <p class="cta-sub">Vivero familiar - Colombia</p>
-      <p class="cta-quote">"Sembramos futuro, raiz a raiz"</p>
-    </div>
-  </section>
+      <section class="section section-alt">
+        <div class="container-md">
+          <h2 class="section-title">Nuestras plantas colombianas</h2>
+          <ul class="plant-list">
+            <li>Palma de cera (arbol nacional)</li>
+            <li>Orquidea cattleya (flor nacional)</li>
+            <li>Helecho culantrillo</li>
+            <li>Bromelia guzmania</li>
+            <li>Suculenta corona de fraile</li>
+          </ul>
+          <p class="plant-note">Mas de 20 variedades nativas</p>
+        </div>
+      </section>
 
-  <!-- VIDEO -->
-  <section class="video-section">
-    <div class="video-container">
-      <div class="video-slides">
-        <div class="video-slide slide-visible">
-          <div class="video-wrapper">
-            <iframe src="https://www.youtube.com/embed/Es7NnI8WI3Y" title="Las palmas de cera del Valle de Cocora" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-          <p class="video-title">Las palmas de cera del Valle de Cocora</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ========== NOSOTROS ========== -->
-
-  <section class="page-header">
-    <h1>Nosotros</h1>
-    <p>Conoce la historia y el equipo detras de Verde Andino</p>
-  </section>
-
-  <!-- HISTORIA -->
-  <section class="section">
-    <div class="container-md">
-      <h2 class="section-title">Nuestra Historia</h2>
-      <div class="historia-grid">
-        <div>
-          <p>Verde Andino nacio en 2010 como un sueno familiar: crear un espacio donde las plantas nativas colombianas fueran cultivadas con respeto y amor por la tierra que nos vio crecer.</p>
-          <p>Desde las laderas de los Andes, en las cercanias de Bogota, comenzamos con un pequeno invernadero y unas cuantas semillas de orquideas. Hoy, nuestro vivero se extiende por mas de 2 hectareas y alberga mas de 20 variedades de plantas nativas y ornamentales.</p>
-          <p>Nuestro compromiso con la sostenibilidad y la conservacion de la biodiversidad colombiana nos ha permitido crecer mientras protegemos los ecosistemas que tanto amamos.</p>
-        </div>
-        <div>
-          <img src="https://images.pexels.com/photos/6777855/pexels-photo-6777855.jpeg?auto=compress&cs=tinysrgb&h=400&w=600" alt="Historia Verde Andino" />
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- VALORES -->
-  <section class="section section-alt">
-    <div class="container">
-      <h2 class="section-title">Nuestros Valores</h2>
-      <div class="valores-grid">
-        <div class="valores-item">
-          <h3>Sostenibilidad</h3>
-          <p>Cultivamos de manera responsable, respetando los ciclos naturales y protegiendo los ecosistemas colombianos.</p>
-        </div>
-        <div class="valores-item">
-          <h3>Biodiversidad</h3>
-          <p>Preservamos y propagamos especies nativas para conservar la riqueza natural de Colombia.</p>
-        </div>
-        <div class="valores-item">
-          <h3>Pasion</h3>
-          <p>Cada planta es cultivada con amor y dedicacion por nuestro equipo de expertos botanicos.</p>
-        </div>
-        <div class="valores-item">
-          <h3>Comunidad</h3>
-          <p>Trabajamos con comunidades locales para generar empleo y promover el desarrollo sostenible.</p>
-        </div>
-        <div class="valores-item">
-          <h3>Innovacion</h3>
-          <p>Implementamos tecnicas modernas de cultivo que respetan el medio ambiente y mejoran la calidad.</p>
-        </div>
-        <div class="valores-item">
-          <h3>Tradicion Andina</h3>
-          <p>Honramos el conocimiento ancestral de nuestros abuelos campesinos en cada practica de cultivo.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- TRAYECTORIA -->
-  <section class="section">
-    <div class="container-md">
-      <h2 class="section-title">Nuestra Trayectoria</h2>
-      <div class="timeline">
-        <div class="timeline-item">
-          <span class="timeline-year">2010</span>
-          <span class="timeline-event">Fundacion de Verde Andino como vivero familiar en las afueras de Bogota.</span>
-        </div>
-        <div class="timeline-item">
-          <span class="timeline-year">2013</span>
-          <span class="timeline-event">Ampliacion del vivero a mas de 2 hectareas con invernaderos especializados.</span>
-        </div>
-        <div class="timeline-item">
-          <span class="timeline-year">2016</span>
-          <span class="timeline-event">Inicio del programa de conservacion de orquideas nativas colombianas.</span>
-        </div>
-        <div class="timeline-item">
-          <span class="timeline-year">2019</span>
-          <span class="timeline-event">Reconocimiento por el Ministerio de Ambiente por practicas sostenibles.</span>
-        </div>
-        <div class="timeline-item">
-          <span class="timeline-year">2022</span>
-          <span class="timeline-event">Apertura de punto de venta en Bogota y expansion de catalogo a 20+ especies.</span>
-        </div>
-        <div class="timeline-item">
-          <span class="timeline-year">2025</span>
-          <span class="timeline-event">Lanzamiento de programa de reforestacion con palma de cera en el Quindio.</span>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- EQUIPO -->
-  <section class="section section-alt">
-    <div class="container-md">
-      <h2 class="section-title">Nuestro Equipo</h2>
-      <p class="text-body text-center mb">Somos un equipo apasionado de botanicos, agronomos y amantes de la naturaleza que trabajan cada dia para llevar la belleza de la flora colombiana a tu hogar.</p>
-      <div class="equipo-grid">
-        <div class="equipo-item">
-          <img src="https://images.pexels.com/photos/37992842/pexels-photo-37992842.jpeg?auto=compress&cs=tinysrgb&h=400&w=600" alt="Cultivando con pasion" />
-          <p>Cultivando con pasion</p>
-        </div>
-        <div class="equipo-item">
-          <img src="https://images.pexels.com/photos/12659072/pexels-photo-12659072.jpeg?auto=compress&cs=tinysrgb&h=400&w=600" alt="Nuestro equipo familiar" />
-          <p>Nuestro equipo familiar</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ========== CONTACTO ========== -->
-
-  <section class="page-header">
-    <h1>Contactanos</h1>
-    <p>Estamos aqui para ayudarte a encontrar la planta perfecta</p>
-  </section>
-
-  <section class="section">
-    <div class="container">
-      <div class="contact-grid">
-        <div>
-          <h2 class="section-title section-title-left">Informacion de Contacto</h2>
-          <div class="contact-info">
-            <div>
-              <h3>Ubicacion</h3>
-              <p>Vereda El Rosal, Km 5 via Chia</p>
-              <p>Cundinamarca, Colombia</p>
+      <section class="section">
+        <div class="container">
+          <h2 class="section-title">Galeria de nuestras especies</h2>
+          <div class="gallery-grid">
+            <div class="gallery-item">
+              <img src="https://images.pexels.com/photos/15699946/pexels-photo-15699946.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=400&w=600" alt="Palma de Cera" />
+              <div class="gallery-item-content">
+                <h3>Palma de Cera</h3>
+                <p>Arbol nacional de Colombia. Puede alcanzar hasta 60 metros de altura y crece en los valles andinos entre 2.500 y 3.000 m.s.n.m.</p>
+              </div>
             </div>
-            <div>
-              <h3>Telefono</h3>
-              <p>+57 300 123 4567</p>
-              <p>+57 (1) 876 5432</p>
+            <div class="gallery-item">
+              <img src="https://images.pexels.com/photos/8280971/pexels-photo-8280971.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=400&w=600" alt="Orquidea Cattleya" />
+              <div class="gallery-item-content">
+                <h3>Orquidea Cattleya</h3>
+                <p>Flor nacional de Colombia. Reconocida por sus petalos grandes y coloridos, simboliza la belleza y riqueza natural del pais.</p>
+              </div>
             </div>
-            <div>
-              <h3>Email</h3>
-              <p>info@verdeandino.co</p>
-              <p>ventas@verdeandino.co</p>
+            <div class="gallery-item">
+              <img src="https://images.pexels.com/photos/12659072/pexels-photo-12659072.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=400&w=600" alt="Helecho Culantrillo" />
+              <div class="gallery-item-content">
+                <h3>Helecho Culantrillo</h3>
+                <p>Helecho delicado de hojas finas y elegantes. Ideal para interiores humedos y sombreados, aporta frescura a cualquier espacio.</p>
+              </div>
             </div>
-            <div>
-              <h3>Horario de Atencion</h3>
-              <p>Lunes a Viernes: 8:00 AM - 5:00 PM</p>
-              <p>Sabados: 8:00 AM - 1:00 PM</p>
-              <p>Domingos y festivos: Cerrado</p>
+            <div class="gallery-item">
+              <img src="https://images.pexels.com/photos/1252896/pexels-photo-1252896.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=400&w=600" alt="Bromelia Guzmania" />
+              <div class="gallery-item-content">
+                <h3>Bromelia Guzmania</h3>
+                <p>Planta tropical con bracteas rojas, naranjas o amarillas. Crece en los bosques humedos colombianos y es perfecta para decoracion.</p>
+              </div>
             </div>
-          </div>
-          <div class="contact-redes">
-            <h3>Siguenos en redes</h3>
-            <div class="contact-redes-links">
-              <span>Facebook</span>
-              <span>Instagram</span>
-              <span>WhatsApp</span>
+            <div class="gallery-item">
+              <img src="https://images.pexels.com/photos/37992842/pexels-photo-37992842.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=400&w=600" alt="Suculenta Corona de Fraile" />
+              <div class="gallery-item-content">
+                <h3>Suculenta Corona de Fraile</h3>
+                <p>Suculenta resistente y de bajo mantenimiento. Su forma compacta y textura unica la convierten en una joya para jardines secos.</p>
+              </div>
+            </div>
+            <div class="gallery-item">
+              <img src="https://images.pexels.com/photos/6777855/pexels-photo-6777855.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=400&w=600" alt="Nuestro Vivero" />
+              <div class="gallery-item-content">
+                <h3>Nuestro Vivero</h3>
+                <p>Cultivamos con amor en el corazon de los Andes colombianos. Visitanos y descubre mas de 20 variedades nativas listas para tu hogar.</p>
+              </div>
             </div>
           </div>
         </div>
+      </section>
 
-        <div>
-          <h2 class="section-title section-title-left">Enviar Mensaje</h2>
-          <form class="contact-form">
-            <div>
-              <label class="form-label">Nombre completo *
-                <input class="form-input" name="nombre" type="text" required />
-              </label>
-            </div>
-            <div>
-              <label class="form-label">Email *
-                <input class="form-input" name="email" type="email" required />
-              </label>
-            </div>
-            <div>
-              <label class="form-label">Telefono
-                <input class="form-input" name="telefono" type="tel" />
-              </label>
-            </div>
-            <div>
-              <label class="form-label">Asunto *
-                <select class="form-select" name="asunto" required>
-                  <option value="">Selecciona un asunto</option>
-                  <option value="compra">Compra de plantas</option>
-                  <option value="asesoria">Asesoria de jardineria</option>
-                  <option value="visitar">Visitar el vivero</option>
-                  <option value="mayorista">Venta mayorista</option>
-                  <option value="otro">Otro</option>
-                </select>
-              </label>
-            </div>
-            <div>
-              <label class="form-label">Mensaje *
-                <textarea class="form-textarea" name="mensaje" rows="4" required></textarea>
-              </label>
-            </div>
-            <button class="form-submit" type="submit">Enviar Mensaje</button>
-          </form>
+      <section class="section section-alt">
+        <div class="container-xs cta">
+          <p class="cta-brand">Verde Andino</p>
+          <p class="cta-sub">Vivero familiar - Colombia</p>
+          <p class="cta-quote">"Sembramos futuro, raiz a raiz"</p>
         </div>
-      </div>
-    </div>
-  </section>
+      </section>
 
-  <!-- COMO LLEGAR -->
-  <section class="section section-alt">
-    <div class="container-md como-llegar">
-      <h3>Como Llegar</h3>
-      <p>Vereda El Rosal</p>
-      <p>Km 5 via Chia, Cundinamarca</p>
-      <p class="love">A 30 minutos del norte de Bogota</p>
-      <p class="extras">Estacionamiento gratuito · Ruta de bus cercana</p>
+      <section class="video-section">
+        <div class="video-container">
+          <div class="video-slides">
+            <div class="video-slide slide-visible">
+              <div class="video-wrapper">
+                <iframe src="https://www.youtube.com/embed/Es7NnI8WI3Y" title="Las palmas de cera del Valle de Cocora" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <p class="video-title">Las palmas de cera del Valle de Cocora</p>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
-  </section>
 
-  <!-- FOOTER -->
+    <div class="vista vista-nosotros">
+      <section class="page-header">
+        <h1>Nosotros</h1>
+        <p>Conoce la historia y el equipo detras de Verde Andino</p>
+      </section>
+
+      <section class="section">
+        <div class="container-md">
+          <h2 class="section-title">Nuestra Historia</h2>
+          <div class="historia-grid">
+            <div>
+              <p>Verde Andino nacio en 2010 como un sueno familiar: crear un espacio donde las plantas nativas colombianas fueran cultivadas con respeto y amor por la tierra que nos vio crecer.</p>
+              <p>Desde las laderas de los Andes, en las cercanias de Bogota, comenzamos con un pequeno invernadero y unas cuantas semillas de orquideas. Hoy, nuestro vivero se extiende por mas de 2 hectareas y alberga mas de 20 variedades de plantas nativas y ornamentales.</p>
+              <p>Nuestro compromiso con la sostenibilidad y la conservacion de la biodiversidad colombiana nos ha permitido crecer mientras protegemos los ecosistemas que tanto amamos.</p>
+            </div>
+            <div>
+              <img src="https://images.pexels.com/photos/6777855/pexels-photo-6777855.jpeg?auto=compress&cs=tinysrgb&h=400&w=600" alt="Historia Verde Andino" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-alt">
+        <div class="container">
+          <h2 class="section-title">Nuestros Valores</h2>
+          <div class="valores-grid">
+            <div class="valores-item">
+              <h3>Sostenibilidad</h3>
+              <p>Cultivamos de manera responsable, respetando los ciclos naturales y protegiendo los ecosistemas colombianos.</p>
+            </div>
+            <div class="valores-item">
+              <h3>Biodiversidad</h3>
+              <p>Preservamos y propagamos especies nativas para conservar la riqueza natural de Colombia.</p>
+            </div>
+            <div class="valores-item">
+              <h3>Pasion</h3>
+              <p>Cada planta es cultivada con amor y dedicacion por nuestro equipo de expertos botanicos.</p>
+            </div>
+            <div class="valores-item">
+              <h3>Comunidad</h3>
+              <p>Trabajamos con comunidades locales para generar empleo y promover el desarrollo sostenible.</p>
+            </div>
+            <div class="valores-item">
+              <h3>Innovacion</h3>
+              <p>Implementamos tecnicas modernas de cultivo que respetan el medio ambiente y mejoran la calidad.</p>
+            </div>
+            <div class="valores-item">
+              <h3>Tradicion Andina</h3>
+              <p>Honramos el conocimiento ancestral de nuestros abuelos campesinos en cada practica de cultivo.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container-md">
+          <h2 class="section-title">Nuestra Trayectoria</h2>
+          <div class="timeline">
+            <div class="timeline-item">
+              <span class="timeline-year">2010</span>
+              <span class="timeline-event">Fundacion de Verde Andino como vivero familiar en las afueras de Bogota.</span>
+            </div>
+            <div class="timeline-item">
+              <span class="timeline-year">2013</span>
+              <span class="timeline-event">Ampliacion del vivero a mas de 2 hectareas con invernaderos especializados.</span>
+            </div>
+            <div class="timeline-item">
+              <span class="timeline-year">2016</span>
+              <span class="timeline-event">Inicio del programa de conservacion de orquideas nativas colombianas.</span>
+            </div>
+            <div class="timeline-item">
+              <span class="timeline-year">2019</span>
+              <span class="timeline-event">Reconocimiento por el Ministerio de Ambiente por practicas sostenibles.</span>
+            </div>
+            <div class="timeline-item">
+              <span class="timeline-year">2022</span>
+              <span class="timeline-event">Apertura de punto de venta en Bogota y expansion de catalogo a 20+ especies.</span>
+            </div>
+            <div class="timeline-item">
+              <span class="timeline-year">2025</span>
+              <span class="timeline-event">Lanzamiento de programa de reforestacion con palma de cera en el Quindio.</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-alt">
+        <div class="container-md">
+          <h2 class="section-title">Nuestro Equipo</h2>
+          <p class="text-body text-center mb">Somos un equipo apasionado de botanicos, agronomos y amantes de la naturaleza que trabajan cada dia para llevar la belleza de la flora colombiana a tu hogar.</p>
+          <div class="equipo-grid">
+            <div class="equipo-item">
+              <img src="https://images.pexels.com/photos/37992842/pexels-photo-37992842.jpeg?auto=compress&cs=tinysrgb&h=400&w=600" alt="Cultivando con pasion" />
+              <p>Cultivando con pasion</p>
+            </div>
+            <div class="equipo-item">
+              <img src="https://images.pexels.com/photos/12659072/pexels-photo-12659072.jpeg?auto=compress&cs=tinysrgb&h=400&w=600" alt="Nuestro equipo familiar" />
+              <p>Nuestro equipo familiar</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="vista vista-contacto">
+      <section class="page-header">
+        <h1>Contactanos</h1>
+        <p>Estamos aqui para ayudarte a encontrar la planta perfecta</p>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="contact-grid">
+            <div>
+              <h2 class="section-title section-title-left">Informacion de Contacto</h2>
+              <div class="contact-info">
+                <div>
+                  <h3>Ubicacion</h3>
+                  <p>Vereda El Rosal, Km 5 via Chia</p>
+                  <p>Cundinamarca, Colombia</p>
+                </div>
+                <div>
+                  <h3>Telefono</h3>
+                  <p>+57 300 123 4567</p>
+                  <p>+57 (1) 876 5432</p>
+                </div>
+                <div>
+                  <h3>Email</h3>
+                  <p>info@verdeandino.co</p>
+                  <p>ventas@verdeandino.co</p>
+                </div>
+                <div>
+                  <h3>Horario de Atencion</h3>
+                  <p>Lunes a Viernes: 8:00 AM - 5:00 PM</p>
+                  <p>Sabados: 8:00 AM - 1:00 PM</p>
+                  <p>Domingos y festivos: Cerrado</p>
+                </div>
+              </div>
+              <div class="contact-redes">
+                <h3>Siguenos en redes</h3>
+                <div class="contact-redes-links">
+                  <span>Facebook</span>
+                  <span>Instagram</span>
+                  <span>WhatsApp</span>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <h2 class="section-title section-title-left">Enviar Mensaje</h2>
+              <form class="contact-form">
+                <div>
+                  <label class="form-label">Nombre completo *
+                    <input class="form-input" name="nombre" type="text" required />
+                  </label>
+                </div>
+                <div>
+                  <label class="form-label">Email *
+                    <input class="form-input" name="email" type="email" required />
+                  </label>
+                </div>
+                <div>
+                  <label class="form-label">Telefono
+                    <input class="form-input" name="telefono" type="tel" />
+                  </label>
+                </div>
+                <div>
+                  <label class="form-label">Asunto *
+                    <select class="form-select" name="asunto" required>
+                      <option value="">Selecciona un asunto</option>
+                      <option value="compra">Compra de plantas</option>
+                      <option value="asesoria">Asesoria de jardineria</option>
+                      <option value="visitar">Visitar el vivero</option>
+                      <option value="mayorista">Venta mayorista</option>
+                      <option value="otro">Otro</option>
+                    </select>
+                  </label>
+                </div>
+                <div>
+                  <label class="form-label">Mensaje *
+                    <textarea class="form-textarea" name="mensaje" rows="4" required></textarea>
+                  </label>
+                </div>
+                <button class="form-submit" type="submit">Enviar Mensaje</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-alt">
+        <div class="container-md como-llegar">
+          <h3>Como Llegar</h3>
+          <p>Vereda El Rosal</p>
+          <p>Km 5 via Chia, Cundinamarca</p>
+          <p class="love">A 30 minutos del norte de Bogota</p>
+          <p class="extras">Estacionamiento gratuito · Ruta de bus cercana</p>
+        </div>
+      </section>
+    </div>
+  </main>
+
   <footer class="footer">
     <div class="footer-inner">
       <div>
@@ -345,9 +339,9 @@
       <div>
         <h3>Navegacion</h3>
         <ul>
-          <li><span class="footer-link">Inicio</span></li>
-          <li><span class="footer-link">Nosotros</span></li>
-          <li><span class="footer-link">Contactanos</span></li>
+          <li><label class="footer-link" for="vista-inicio">Inicio</label></li>
+          <li><label class="footer-link" for="vista-nosotros">Nosotros</label></li>
+          <li><label class="footer-link" for="vista-contacto">Contactanos</label></li>
         </ul>
       </div>
       <div>

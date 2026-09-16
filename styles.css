@@ -204,6 +204,8 @@ body {
 .video-wrapper {
   position: relative;
   width: 100%;
+  max-width: min(54rem, 114vh);
+  margin: 0 auto;
   padding-bottom: 56.25%;
 }
 
@@ -214,6 +216,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
+  object-fit: contain;
   border: none;
   background-color: #1c261c;
 }
@@ -703,4 +706,147 @@ body {
 .como-llegar .extras {
   color: #3a4f3a;
   margin-top: 0.75rem;
+}
+
+#vista-catalogo:checked ~ .navbar .tab-catalogo {
+  color: #e8f5e8;
+  border-bottom-color: #8ab58a;
+}
+
+#vista-catalogo:checked ~ main .vista-catalogo {
+  display: block;
+}
+
+.catalog-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 1.75rem;
+}
+
+.catalog-tab {
+  padding: 0.5rem 0.9rem;
+  font-size: 0.8rem;
+  color: #3f6a3f;
+  background-color: #dfe7d8;
+  border: 1px solid #b9cbb4;
+  border-radius: 999px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.catalog-tab:hover {
+  background-color: #cfdcc6;
+  color: #2e3d2e;
+}
+
+#cat-arboles:checked ~ .catalog-tabs label[for="cat-arboles"],
+#cat-orquideas:checked ~ .catalog-tabs label[for="cat-orquideas"],
+#cat-palmas:checked ~ .catalog-tabs label[for="cat-palmas"],
+#cat-suculentas:checked ~ .catalog-tabs label[for="cat-suculentas"],
+#cat-helechos:checked ~ .catalog-tabs label[for="cat-helechos"],
+#cat-flores:checked ~ .catalog-tabs label[for="cat-flores"],
+#cat-aromaticas:checked ~ .catalog-tabs label[for="cat-aromaticas"],
+#cat-macetas:checked ~ .catalog-tabs label[for="cat-macetas"] {
+  color: #ffffff;
+  background-color: #4b6e4b;
+  border-color: #4b6e4b;
+  font-weight: 600;
+}
+
+.catalog-panel {
+  display: none;
+}
+
+#cat-arboles:checked ~ .catalog-panels .panel-arboles,
+#cat-orquideas:checked ~ .catalog-panels .panel-orquideas,
+#cat-palmas:checked ~ .catalog-panels .panel-palmas,
+#cat-suculentas:checked ~ .catalog-panels .panel-suculentas,
+#cat-helechos:checked ~ .catalog-panels .panel-helechos,
+#cat-flores:checked ~ .catalog-panels .panel-flores,
+#cat-aromaticas:checked ~ .catalog-panels .panel-aromaticas,
+#cat-macetas:checked ~ .catalog-panels .panel-macetas {
+  display: block;
+}
+
+.catalog-intro {
+  text-align: center;
+  color: #3a4f3a;
+  font-size: 0.875rem;
+  margin-bottom: 1.5rem;
+}
+
+.catalog-card {
+  max-width: 34rem;
+  margin: 0 auto 1.5rem;
+  background-color: #ffffff;
+  border: 1px solid #ddd6c4;
+}
+
+.catalog-card img {
+  width: 100%;
+  height: 14rem;
+  object-fit: cover;
+  display: block;
+}
+
+.catalog-card-body {
+  padding: 1.1rem 1.25rem 1.25rem;
+  text-align: center;
+}
+
+.catalog-card h3 {
+  color: #3f6a3f;
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+
+.catalog-card p {
+  font-size: 0.875rem;
+  color: #3a4f3a;
+  line-height: 1.5;
+}
+
+.catalog-cta {
+  display: inline-block;
+  margin-top: 0.9rem;
+  padding: 0.55rem 1.1rem;
+  background-color: #4b6e4b;
+  color: #ffffff;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+.catalog-cta:hover {
+  background-color: #3f6a3f;
+}
+
+.catalog-extra {
+  text-align: center;
+}
+
+.catalog-extra h4 {
+  color: #3f6a3f;
+  font-weight: 500;
+  font-size: 0.875rem;
+  margin-bottom: 0.75rem;
+}
+
+.catalog-chips {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.catalog-chips li {
+  font-size: 0.8rem;
+  color: #4b6e4b;
+  background-color: #e7efe2;
+  border: 1px solid #c2d4bb;
+  border-radius: 999px;
+  padding: 0.3rem 0.8rem;
 }

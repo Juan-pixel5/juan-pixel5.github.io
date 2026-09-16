@@ -6,6 +6,14 @@ Página web del vivero Verde Andino.
 
 - `index.html` - Una sola página con 4 vistas (Inicio, Catálogo, Nosotros, Contáctanos) y carrusel de videos, todo con HTML + CSS puro (sin JavaScript para la navegación).
 - `styles.css` - Estilos del sitio.
+
+## Mejora visual (Inicio y Contáctanos)
+
+Se mantiene la misma paleta, tipografía Arial y la navegación CSS-only; solo se agregó profundidad y contraste para que el sitio no se vea apagado:
+
+- **Inicio:** nueva portada (`hero`) con la foto del vivero, título, dos botones que llevan al catálogo y al contacto, y una fila de datos (variedades, hectáreas, años). Misión y Visión pasan a tarjetas con icono, la lista de plantas nativas se convierte en fichas con foto y la galería tiene tarjetas con etiqueta, sombra y zoom suave de la imagen.
+- **Contáctanos:** encabezado con foto de fondo y accesos rápidos (teléfono, correo, horario), datos de contacto en tarjetas con icono, formulario sobre tarjeta con foco resaltado y sección "Cómo llegar" con foto.
+- El bloque de videos, el catálogo y el pie de página conservan su estructura con un acabado más definido (degradados oscuros, botones redondos y títulos con subrayado).
 - `assets/img/` - Imágenes del vivero y del catálogo.
 - `assets/video/` - Videos locales del carrusel.
 - `enlaces-descarga.txt`, `descargar-assets.sh`, `descargar-assets.ps1` - Fuentes y scripts de los assets originales.

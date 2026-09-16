@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Verde Andino - Vivero Colombiano</title>
-  <link rel="stylesheet" href="styles.css?v=3" />
+  <link rel="stylesheet" href="styles.css?v=4" />
 </head>
 <body>
 
@@ -16,6 +16,13 @@
   <nav class="navbar">
     <div class="navbar-inner">
       <div class="navbar-brand">
+        <span class="navbar-brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 21.5c0-6.5 3.2-10.8 8.5-12.7-.9 8.4-4.3 11.6-8.5 12.7Z" />
+            <path d="M12 21.5C10.6 15 7.2 11.4 3.5 9.3c1 7.6 4.4 11.2 8.5 12.2Z" />
+            <path d="M12 21.5v-6.2" />
+          </svg>
+        </span>
         <span class="navbar-brand-title">Verde Andino</span>
         <span class="navbar-brand-sub">| Vivero Colombiano</span>
       </div>
@@ -30,93 +37,193 @@
 
   <main>
     <div class="vista vista-inicio">
-      <section class="section">
-        <div class="container-md">
-          <h2 class="section-title">Mision</h2>
-          <div class="text-body mb">
-            Ofrecer plantas nativas y ornamentales de alta calidad, cultivadas de manera responsable en Colombia, para embellecer hogares, empresas y espacios publicos. Buscamos promover el cuidado del medio ambiente, la conservacion de la biodiversidad colombiana y la conexion de las personas con la naturaleza, brindando productos y asesoria que contribuyan al desarrollo sostenible del pais.
+      <section class="hero">
+        <div class="hero-inner">
+          <p class="hero-eyebrow">Vivero familiar &middot; Cundinamarca, Colombia</p>
+          <h1 class="hero-title">Verde Andino</h1>
+          <p class="hero-text">
+            Cultivamos plantas nativas y ornamentales en el corazon de los Andes colombianos.
+            Llevamos la belleza de nuestra flora a tu hogar, tu empresa o tu proyecto de reforestacion.
+          </p>
+          <div class="hero-actions">
+            <label class="btn btn-primary" for="vista-catalogo">Explorar el catalogo</label>
+            <label class="btn btn-ghost" for="vista-contacto">Escribenos</label>
           </div>
-          <h2 class="section-title">Vision</h2>
-          <div class="text-body">
-            Para el ano 2035, ser reconocidos como una de las empresas lideres en Colombia en la produccion y comercializacion de plantas nativas y ornamentales, destacandonos por nuestro compromiso con la sostenibilidad, la proteccion de los ecosistemas y la innovacion en practicas de cultivo. Aspiramos a contribuir a la creacion de ciudades y comunidades mas verdes, fomentando una cultura de respeto y conservacion de la riqueza natural colombiana.
+          <ul class="hero-stats">
+            <li>
+              <strong>+20</strong>
+              <span>Variedades nativas</span>
+            </li>
+            <li>
+              <strong>2 ha</strong>
+              <span>De cultivo propio</span>
+            </li>
+            <li>
+              <strong>15</strong>
+              <span>Anos sembrando</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section mv-section">
+        <div class="container">
+          <p class="section-kicker">Quienes somos</p>
+          <h2 class="section-title">Nuestra razon de ser</h2>
+          <div class="mv-grid">
+            <article class="mv-card">
+              <span class="mv-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 21.5c0-6.5 3.2-10.8 8.5-12.7-.9 8.4-4.3 11.6-8.5 12.7Z" />
+                  <path d="M12 21.5C10.6 15 7.2 11.4 3.5 9.3c1 7.6 4.4 11.2 8.5 12.2Z" />
+                  <path d="M12 21.5v-6.2" />
+                </svg>
+              </span>
+              <h3>Mision</h3>
+              <p>
+                Ofrecer plantas nativas y ornamentales de alta calidad, cultivadas de manera responsable en Colombia, para embellecer hogares, empresas y espacios publicos. Buscamos promover el cuidado del medio ambiente, la conservacion de la biodiversidad colombiana y la conexion de las personas con la naturaleza, brindando productos y asesoria que contribuyan al desarrollo sostenible del pais.
+              </p>
+            </article>
+            <article class="mv-card">
+              <span class="mv-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="7.5" />
+                  <circle cx="12" cy="12" r="3" />
+                  <path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2" />
+                </svg>
+              </span>
+              <h3>Vision</h3>
+              <p>
+                Para el ano 2035, ser reconocidos como una de las empresas lideres en Colombia en la produccion y comercializacion de plantas nativas y ornamentales, destacandonos por nuestro compromiso con la sostenibilidad, la proteccion de los ecosistemas y la innovacion en practicas de cultivo. Aspiramos a contribuir a la creacion de ciudades y comunidades mas verdes, fomentando una cultura de respeto y conservacion de la riqueza natural colombiana.
+              </p>
+            </article>
           </div>
         </div>
       </section>
 
-      <section class="section section-alt">
-        <div class="container-md">
+      <section class="section section-alt plants-section">
+        <div class="container">
+          <p class="section-kicker">Biodiversidad colombiana</p>
           <h2 class="section-title">Nuestras plantas colombianas</h2>
-          <ul class="plant-list">
-            <li>Palma de cera (arbol nacional)</li>
-            <li>Orquidea cattleya (flor nacional)</li>
-            <li>Helecho culantrillo</li>
-            <li>Bromelia guzmania</li>
-            <li>Suculenta corona de fraile</li>
-          </ul>
-          <p class="plant-note">Mas de 20 variedades nativas</p>
+          <div class="plants-grid">
+            <div class="plants-list-wrap">
+              <ul class="plant-list">
+                <li>
+                  <span class="plant-dot" aria-hidden="true"></span>
+                  <span><strong>Palma de cera</strong> <em>(arbol nacional)</em></span>
+                </li>
+                <li>
+                  <span class="plant-dot" aria-hidden="true"></span>
+                  <span><strong>Orquidea cattleya</strong> <em>(flor nacional)</em></span>
+                </li>
+                <li>
+                  <span class="plant-dot" aria-hidden="true"></span>
+                  <span><strong>Helecho culantrillo</strong></span>
+                </li>
+                <li>
+                  <span class="plant-dot" aria-hidden="true"></span>
+                  <span><strong>Bromelia guzmania</strong></span>
+                </li>
+                <li>
+                  <span class="plant-dot" aria-hidden="true"></span>
+                  <span><strong>Suculenta corona de fraile</strong></span>
+                </li>
+              </ul>
+              <p class="plant-note">Mas de 20 variedades nativas listas para tu hogar</p>
+            </div>
+            <div class="plants-photos">
+              <img src="assets/img/flores-temporada.jpg" alt="Flores de temporada del vivero" />
+              <img src="assets/img/helechos-follajes.jpg" alt="Helechos y follajes en el invernadero" />
+            </div>
+          </div>
         </div>
       </section>
 
       <section class="section">
         <div class="container">
+          <p class="section-kicker">Especies destacadas</p>
           <h2 class="section-title">Galeria de nuestras especies</h2>
           <div class="gallery-grid">
-            <div class="gallery-item">
-              <img src="assets/img/palma-cera.jpg" alt="Palma de Cera" />
+            <article class="gallery-item">
+              <div class="gallery-media">
+                <img src="assets/img/palma-cera.jpg" alt="Palma de Cera" />
+                <span class="gallery-tag">Arbol nacional</span>
+              </div>
               <div class="gallery-item-content">
                 <h3>Palma de Cera</h3>
                 <p>Arbol nacional de Colombia. Puede alcanzar hasta 60 metros de altura y crece en los valles andinos entre 2.500 y 3.000 m.s.n.m.</p>
               </div>
-            </div>
-            <div class="gallery-item">
-              <img src="assets/img/orquidea-cattleya.jpg" alt="Orquidea Cattleya" />
+            </article>
+            <article class="gallery-item">
+              <div class="gallery-media">
+                <img src="assets/img/orquidea-cattleya.jpg" alt="Orquidea Cattleya" />
+                <span class="gallery-tag">Flor nacional</span>
+              </div>
               <div class="gallery-item-content">
                 <h3>Orquidea Cattleya</h3>
                 <p>Flor nacional de Colombia. Reconocida por sus petalos grandes y coloridos, simboliza la belleza y riqueza natural del pais.</p>
               </div>
-            </div>
-            <div class="gallery-item">
-              <img src="assets/img/helecho-culantrillo.jpg" alt="Helecho Culantrillo" />
+            </article>
+            <article class="gallery-item">
+              <div class="gallery-media">
+                <img src="assets/img/helecho-culantrillo.jpg" alt="Helecho Culantrillo" />
+                <span class="gallery-tag">Interior</span>
+              </div>
               <div class="gallery-item-content">
                 <h3>Helecho Culantrillo</h3>
                 <p>Helecho delicado de hojas finas y elegantes. Ideal para interiores humedos y sombreados, aporta frescura a cualquier espacio.</p>
               </div>
-            </div>
-            <div class="gallery-item">
-              <img src="assets/img/bromelia-guzmania.jpg" alt="Bromelia Guzmania" />
+            </article>
+            <article class="gallery-item">
+              <div class="gallery-media">
+                <img src="assets/img/bromelia-guzmania.jpg" alt="Bromelia Guzmania" />
+                <span class="gallery-tag">Tropical</span>
+              </div>
               <div class="gallery-item-content">
                 <h3>Bromelia Guzmania</h3>
                 <p>Planta tropical con bracteas rojas, naranjas o amarillas. Crece en los bosques humedos colombianos y es perfecta para decoracion.</p>
               </div>
-            </div>
-            <div class="gallery-item">
-              <img src="assets/img/suculenta-corona-fraile.jpg" alt="Suculenta Corona de Fraile" />
+            </article>
+            <article class="gallery-item">
+              <div class="gallery-media">
+                <img src="assets/img/suculenta-corona-fraile.jpg" alt="Suculenta Corona de Fraile" />
+                <span class="gallery-tag">Bajo mantenimiento</span>
+              </div>
               <div class="gallery-item-content">
                 <h3>Suculenta Corona de Fraile</h3>
                 <p>Suculenta resistente y de bajo mantenimiento. Su forma compacta y textura unica la convierten en una joya para jardines secos.</p>
               </div>
-            </div>
-            <div class="gallery-item">
-              <img src="assets/img/vivero.jpg" alt="Nuestro Vivero" />
+            </article>
+            <article class="gallery-item">
+              <div class="gallery-media">
+                <img src="assets/img/vivero.jpg" alt="Nuestro Vivero" />
+                <span class="gallery-tag">Visitanos</span>
+              </div>
               <div class="gallery-item-content">
                 <h3>Nuestro Vivero</h3>
                 <p>Cultivamos con amor en el corazon de los Andes colombianos. Visitanos y descubre mas de 20 variedades nativas listas para tu hogar.</p>
               </div>
-            </div>
+            </article>
+          </div>
+          <div class="gallery-cta">
+            <p>Buscas algo en particular? Tenemos 18 fichas listas para cotizar.</p>
+            <label class="btn btn-outline" for="vista-catalogo">Ver el catalogo completo</label>
           </div>
         </div>
       </section>
 
-      <section class="section section-alt">
-        <div class="container-xs cta">
+      <section class="section section-dark cta-band">
+        <div class="container cta">
           <p class="cta-brand">Verde Andino</p>
           <p class="cta-sub">Vivero familiar - Colombia</p>
           <p class="cta-quote">"Sembramos futuro, raiz a raiz"</p>
+          <label class="btn btn-light" for="vista-contacto">Visitanos o escribenos</label>
         </div>
       </section>
 
       <section class="video-section">
         <div class="video-container">
+          <p class="section-kicker section-kicker-light">Consejos y curiosidades</p>
           <h2 class="video-heading">Videos de nuestras especies</h2>
 
           <input class="video-switch" type="radio" name="video" id="video-1" checked />
@@ -186,9 +293,12 @@
     </div>
 
     <div class="vista vista-catalogo">
-      <section class="page-header">
-        <h1>Catalogo</h1>
-        <p>8 lineas de cultivo, mas de 20 variedades nativas y ornamentales listas para tu hogar</p>
+      <section class="page-header page-header-lg">
+        <div class="container">
+          <p class="section-kicker section-kicker-light">Nuestro cultivo</p>
+          <h1>Catalogo</h1>
+          <p>8 lineas de cultivo, mas de 20 variedades nativas y ornamentales listas para tu hogar</p>
+        </div>
       </section>
 
       <section class="section">
@@ -757,9 +867,12 @@
     </div>
 
     <div class="vista vista-nosotros">
-      <section class="page-header">
-        <h1>Nosotros</h1>
-        <p>Conoce la historia y el equipo detras de Verde Andino</p>
+      <section class="page-header page-header-lg">
+        <div class="container">
+          <p class="section-kicker section-kicker-light">Desde 2010</p>
+          <h1>Nosotros</h1>
+          <p>Conoce la historia y el equipo detras de Verde Andino</p>
+        </div>
       </section>
 
       <section class="section">
@@ -861,51 +974,116 @@
     </div>
 
     <div class="vista vista-contacto">
-      <section class="page-header">
-        <h1>Contactanos</h1>
-        <p>Estamos aqui para ayudarte a encontrar la planta perfecta</p>
+      <section class="page-header page-header-lg">
+        <div class="container">
+          <p class="section-kicker section-kicker-light">Atencion personalizada</p>
+          <h1>Contactanos</h1>
+          <p>Estamos aqui para ayudarte a encontrar la planta perfecta</p>
+          <ul class="header-chips">
+            <li>
+              <a href="tel:+573001234567">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M6.4 3h3.1l1.5 4-2.1 1.4a12.4 12.4 0 0 0 5.7 5.7L16 12l4 1.5v3.1a1.9 1.9 0 0 1-2.1 1.9A15.6 15.6 0 0 1 4.5 5.1 1.9 1.9 0 0 1 6.4 3Z" />
+                </svg>
+                +57 300 123 4567
+              </a>
+            </li>
+            <li>
+              <a href="mailto:info@verdeandino.co">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <rect x="3" y="5.5" width="18" height="13" rx="1.5" />
+                  <path d="m4 7 8 5.8L20 7" />
+                </svg>
+                info@verdeandino.co
+              </a>
+            </li>
+            <li>
+              <span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <circle cx="12" cy="12" r="8.5" />
+                  <path d="M12 7.2V12l3.2 2.1" />
+                </svg>
+                Lun a Sab - 8:00 AM a 5:00 PM
+              </span>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <section class="section">
         <div class="container">
           <div class="contact-grid">
-            <div>
+            <div class="contact-col">
+              <p class="section-kicker">Hablemos</p>
               <h2 class="section-title section-title-left">Informacion de Contacto</h2>
               <div class="contact-info">
-                <div>
-                  <h3>Ubicacion</h3>
-                  <p>Vereda El Rosal, Km 5 via Chia</p>
-                  <p>Cundinamarca, Colombia</p>
+                <div class="contact-card">
+                  <span class="contact-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M12 21s7-5.7 7-11a7 7 0 1 0-14 0c0 5.3 7 11 7 11Z" />
+                      <circle cx="12" cy="10" r="2.6" />
+                    </svg>
+                  </span>
+                  <div class="contact-card-body">
+                    <h3>Ubicacion</h3>
+                    <p>Vereda El Rosal, Km 5 via Chia</p>
+                    <p>Cundinamarca, Colombia</p>
+                  </div>
                 </div>
-                <div>
-                  <h3>Telefono</h3>
-                  <p>+57 300 123 4567</p>
-                  <p>+57 (1) 876 5432</p>
+                <div class="contact-card">
+                  <span class="contact-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M6.4 3h3.1l1.5 4-2.1 1.4a12.4 12.4 0 0 0 5.7 5.7L16 12l4 1.5v3.1a1.9 1.9 0 0 1-2.1 1.9A15.6 15.6 0 0 1 4.5 5.1 1.9 1.9 0 0 1 6.4 3Z" />
+                    </svg>
+                  </span>
+                  <div class="contact-card-body">
+                    <h3>Telefono</h3>
+                    <p><a href="tel:+573001234567">+57 300 123 4567</a></p>
+                    <p><a href="tel:+5718765432">+57 (1) 876 5432</a></p>
+                  </div>
                 </div>
-                <div>
-                  <h3>Email</h3>
-                  <p>info@verdeandino.co</p>
-                  <p>ventas@verdeandino.co</p>
+                <div class="contact-card">
+                  <span class="contact-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                      <rect x="3" y="5.5" width="18" height="13" rx="1.5" />
+                      <path d="m4 7 8 5.8L20 7" />
+                    </svg>
+                  </span>
+                  <div class="contact-card-body">
+                    <h3>Email</h3>
+                    <p><a href="mailto:info@verdeandino.co">info@verdeandino.co</a></p>
+                    <p><a href="mailto:ventas@verdeandino.co">ventas@verdeandino.co</a></p>
+                  </div>
                 </div>
-                <div>
-                  <h3>Horario de Atencion</h3>
-                  <p>Lunes a Viernes: 8:00 AM - 5:00 PM</p>
-                  <p>Sabados: 8:00 AM - 1:00 PM</p>
-                  <p>Domingos y festivos: Cerrado</p>
+                <div class="contact-card">
+                  <span class="contact-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                      <circle cx="12" cy="12" r="8.5" />
+                      <path d="M12 7.2V12l3.2 2.1" />
+                    </svg>
+                  </span>
+                  <div class="contact-card-body">
+                    <h3>Horario de Atencion</h3>
+                    <p>Lunes a Viernes: 8:00 AM - 5:00 PM</p>
+                    <p>Sabados: 8:00 AM - 1:00 PM</p>
+                    <p>Domingos y festivos: Cerrado</p>
+                  </div>
                 </div>
               </div>
               <div class="contact-redes">
                 <h3>Siguenos en redes</h3>
                 <div class="contact-redes-links">
-                  <span>Facebook</span>
-                  <span>Instagram</span>
-                  <span>WhatsApp</span>
+                  <span class="social-chip"><i class="social-dot social-dot-fb" aria-hidden="true"></i>Facebook</span>
+                  <span class="social-chip"><i class="social-dot social-dot-ig" aria-hidden="true"></i>Instagram</span>
+                  <span class="social-chip"><i class="social-dot social-dot-wa" aria-hidden="true"></i>WhatsApp</span>
                 </div>
               </div>
             </div>
 
-            <div>
+            <div class="contact-form-card">
+              <p class="section-kicker">Te respondemos rapido</p>
               <h2 class="section-title section-title-left">Enviar Mensaje</h2>
+              <p class="form-intro">Cuentanos que plantas necesitas y te enviamos disponibilidad, precios y consejos de cuidado.</p>
               <form class="contact-form">
                 <div>
                   <label class="form-label">Nombre completo *
@@ -940,6 +1118,12 @@
                   </label>
                 </div>
                 <button class="form-submit" type="submit">Enviar Mensaje</button>
+                <p class="form-note">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="m4.5 12.5 4.6 4.6L19.5 6.6" />
+                  </svg>
+                  Respondemos en menos de 24 horas habiles
+                </p>
               </form>
             </div>
           </div>
@@ -947,12 +1131,27 @@
       </section>
 
       <section class="section section-alt">
-        <div class="container-md como-llegar">
-          <h3>Como Llegar</h3>
-          <p>Vereda El Rosal</p>
-          <p>Km 5 via Chia, Cundinamarca</p>
-          <p class="love">A 30 minutos del norte de Bogota</p>
-          <p class="extras">Estacionamiento gratuito · Ruta de bus cercana</p>
+        <div class="container como-llegar">
+          <div class="como-llegar-info">
+            <span class="contact-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 21s7-5.7 7-11a7 7 0 1 0-14 0c0 5.3 7 11 7 11Z" />
+                <circle cx="12" cy="10" r="2.6" />
+              </svg>
+            </span>
+            <h3>Como Llegar</h3>
+            <p>Vereda El Rosal</p>
+            <p>Km 5 via Chia, Cundinamarca</p>
+            <p class="love">A 30 minutos del norte de Bogota</p>
+            <ul class="info-chips">
+              <li>Estacionamiento gratuito</li>
+              <li>Ruta de bus cercana</li>
+            </ul>
+            <label class="btn btn-primary" for="vista-catalogo">Ver el catalogo de plantas</label>
+          </div>
+          <div class="como-llegar-photo">
+            <img src="assets/img/reforestacion-arboles.jpg" alt="Vivero y montanas de Cundinamarca" />
+          </div>
         </div>
       </section>
     </div>

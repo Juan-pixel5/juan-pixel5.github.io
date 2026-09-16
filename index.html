@@ -115,12 +115,68 @@
 
       <section class="video-section">
         <div class="video-container">
+          <h2 class="video-heading">Videos de nuestras especies</h2>
+
+          <input class="video-switch" type="radio" name="video" id="video-1" checked />
+          <input class="video-switch" type="radio" name="video" id="video-2" />
+          <input class="video-switch" type="radio" name="video" id="video-3" />
+
           <div class="video-slides">
-            <div class="video-slide slide-visible">
+            <div class="video-slide slide-1">
               <div class="video-wrapper">
-                <iframe src="https://www.youtube.com/embed/Es7NnI8WI3Y" title="Las palmas de cera del Valle de Cocora" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <video controls preload="metadata" playsinline poster="assets/img/palma-cera.jpg">
+                  <source src="assets/video/palma-cera-medellin.mp4" type="video/mp4" />
+                  Tu navegador no soporta video HTML5.
+                </video>
               </div>
-              <p class="video-title">Las palmas de cera del Valle de Cocora</p>
+              <p class="video-title">Importancia de la palma de cera - Jardin Botanico de Medellin</p>
+              <div class="video-controls">
+                <label class="video-arrow" for="video-3" title="Video anterior">&#10094;</label>
+                <div class="video-dots">
+                  <label class="video-dot dot-1" for="video-1">1</label>
+                  <label class="video-dot dot-2" for="video-2">2</label>
+                  <label class="video-dot dot-3" for="video-3">3</label>
+                </div>
+                <label class="video-arrow" for="video-2" title="Video siguiente">&#10095;</label>
+              </div>
+            </div>
+
+            <div class="video-slide slide-2">
+              <div class="video-wrapper">
+                <video controls preload="metadata" playsinline poster="assets/img/bromelia-guzmania.jpg">
+                  <source src="assets/video/timelapse-flores-plantas.mp4" type="video/mp4" />
+                  Tu navegador no soporta video HTML5.
+                </video>
+              </div>
+              <p class="video-title">Time Lapse - Flores y plantas</p>
+              <div class="video-controls">
+                <label class="video-arrow" for="video-1" title="Video anterior">&#10094;</label>
+                <div class="video-dots">
+                  <label class="video-dot dot-1" for="video-1">1</label>
+                  <label class="video-dot dot-2" for="video-2">2</label>
+                  <label class="video-dot dot-3" for="video-3">3</label>
+                </div>
+                <label class="video-arrow" for="video-3" title="Video siguiente">&#10095;</label>
+              </div>
+            </div>
+
+            <div class="video-slide slide-3">
+              <div class="video-wrapper">
+                <video controls preload="metadata" playsinline poster="assets/img/orquidea-cattleya.jpg">
+                  <source src="assets/video/orquidea-cuidados.mp4" type="video/mp4" />
+                  Tu navegador no soporta video HTML5.
+                </video>
+              </div>
+              <p class="video-title">Cuidados de tu orquidea - Nunca hagas esto</p>
+              <div class="video-controls">
+                <label class="video-arrow" for="video-2" title="Video anterior">&#10094;</label>
+                <div class="video-dots">
+                  <label class="video-dot dot-1" for="video-1">1</label>
+                  <label class="video-dot dot-2" for="video-2">2</label>
+                  <label class="video-dot dot-3" for="video-3">3</label>
+                </div>
+                <label class="video-arrow" for="video-1" title="Video siguiente">&#10095;</label>
+              </div>
             </div>
           </div>
         </div>

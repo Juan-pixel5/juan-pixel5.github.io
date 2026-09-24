@@ -4,23 +4,19 @@ Página web del vivero Verde Andino.
 
 ## Estructura
 
-- `index.html` - Una sola página con 4 vistas (Inicio, Catálogo, Nosotros, Contáctanos) y carrusel de videos, todo con HTML + CSS puro (sin JavaScript para la navegación).
-- `styles.css` - Estilos del sitio.
+El sitio está organizado como un sitio estático multipágina. Cada vista tiene ahora su propio archivo HTML y su propia hoja de estilos, mientras que `css/base.css` contiene únicamente los estilos compartidos:
 
-## Mejora visual (Inicio y Contáctanos)
+- `index.html` + `css/inicio.css` - Inicio, misión, visión, plantas destacadas, galería y videos.
+- `catalogo.html` + `css/catalogo.css` - Catálogo de 8 categorías y sus fichas de producto.
+- `nosotros.html` + `css/nosotros.css` - Historia, valores, trayectoria y equipo.
+- `contacto.html` + `css/contacto.css` - Información de contacto, formulario y cómo llegar.
+- `css/base.css` - Reset, navegación, pie de página, layout, botones, encabezados y accesibilidad compartidos.
 
-Se mantiene la misma paleta, tipografía Arial y la navegación CSS-only; solo se agregó profundidad y contraste para que el sitio no se vea apagado:
-
-- **Inicio:** nueva portada (`hero`) con la foto del vivero, título, dos botones que llevan al catálogo y al contacto, y una fila de datos (variedades, hectáreas, años). Misión y Visión pasan a tarjetas con icono, la lista de plantas nativas se convierte en fichas con foto y la galería tiene tarjetas con etiqueta, sombra y zoom suave de la imagen.
-- **Contáctanos:** encabezado con foto de fondo y accesos rápidos (teléfono, correo, horario), datos de contacto en tarjetas con icono, formulario sobre tarjeta con foco resaltado y sección "Cómo llegar" con foto.
-- El bloque de videos, el catálogo y el pie de página conservan su estructura con un acabado más definido (degradados oscuros, botones redondos y títulos con subrayado).
-- `assets/img/` - Imágenes del vivero y del catálogo.
-- `assets/video/` - Videos locales del carrusel.
-- `enlaces-descarga.txt`, `descargar-assets.sh`, `descargar-assets.ps1` - Fuentes y scripts de los assets originales.
+La navegación usa enlaces HTML normales entre páginas, por lo que funciona directamente en GitHub Pages sin depender de JavaScript. El carrusel de videos de `index.html` mantiene sus controles CSS y un pequeño script para pausar el video que deja de estar visible.
 
 ## Catálogo
 
-El catálogo tiene 8 categorías (pestañas) con 18 fichas de producto en total. Cada ficha incluye foto, nombre científico, descripción, cuidados (luz, riego, tamaño, nivel), precio de referencia en COP y un botón que lleva a la vista de contacto.
+El catálogo tiene 8 categorías (pestañas) con 18 fichas de producto en total. Cada ficha incluye foto, nombre científico, descripción, cuidados (luz, riego, tamaño, nivel), precio de referencia en COP y un botón que lleva a la página de contacto.
 
 1. Árboles
 2. Orquídeas
@@ -36,3 +32,7 @@ El catálogo tiene 8 categorías (pestañas) con 18 fichas de producto en total.
 - `palma-cera.jpg`, `orquidea-cattleya.jpg`, `helecho-culantrillo.jpg`, `bromelia-guzmania.jpg`, `suculenta-corona-fraile.jpg`, `palmas-cocora.jpg`, `vivero.jpg` - Fotografías de Pexels (ver `enlaces-descarga.txt`).
 - El resto de imágenes de `assets/img/` - Generadas por IA para completar todas las fichas del catálogo. Todas están optimizadas a máximo 1200 px y calidad 85.
 - `semillas-palma-cera.jpg` - Imagen generada por IA para la ficha "Semillas de Palma de Cera" (categoría 3. Palmas): muestra el sobre de semillas con la plántula. `palmas-cocora.jpg` (foto de Pexels) queda disponible como imagen de paisaje/origen.
+
+## Estilos
+
+Las hojas de estilos están dentro de `css/` para mantener separados los estilos comunes de los estilos propios de cada página. Las rutas a imágenes desde CSS usan `../assets/` porque las hojas viven en esa carpeta.

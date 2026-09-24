@@ -4,13 +4,13 @@ Página web del vivero Verde Andino.
 
 ## Estructura
 
-El sitio está organizado como un sitio estático multipágina. Cada vista tiene ahora su propio archivo HTML y su propia hoja de estilos, mientras que `css/base.css` contiene únicamente los estilos compartidos:
+El sitio está organizado como un sitio estático multipágina. El contenido HTML de cada vista está separado en su propio archivo y todos comparten una única hoja de estilos:
 
-- `index.html` + `css/inicio.css` - Inicio, misión, visión, plantas destacadas, galería y videos.
-- `catalogo.html` + `css/catalogo.css` - Catálogo de 8 categorías y sus fichas de producto.
-- `nosotros.html` + `css/nosotros.css` - Historia, valores, trayectoria y equipo.
-- `contacto.html` + `css/contacto.css` - Información de contacto, formulario y cómo llegar.
-- `css/base.css` - Reset, navegación, pie de página, layout, botones, encabezados y accesibilidad compartidos.
+- `index.html` - Inicio, misión, visión, plantas destacadas, galería y videos.
+- `catalogo.html` - Catálogo de 8 categorías y sus fichas de producto.
+- `nosotros.html` - Historia, valores, trayectoria y equipo.
+- `contacto.html` - Información de contacto, formulario y cómo llegar.
+- `styles.css` - Estilos compartidos por todas las páginas.
 
 La navegación usa enlaces HTML normales entre páginas, por lo que funciona directamente en GitHub Pages sin depender de JavaScript. El carrusel de videos de `index.html` mantiene sus controles CSS y un pequeño script para pausar el video que deja de estar visible.
 
@@ -32,7 +32,3 @@ El catálogo tiene 8 categorías (pestañas) con 18 fichas de producto en total.
 - `palma-cera.jpg`, `orquidea-cattleya.jpg`, `helecho-culantrillo.jpg`, `bromelia-guzmania.jpg`, `suculenta-corona-fraile.jpg`, `palmas-cocora.jpg`, `vivero.jpg` - Fotografías de Pexels (ver `enlaces-descarga.txt`).
 - El resto de imágenes de `assets/img/` - Generadas por IA para completar todas las fichas del catálogo. Todas están optimizadas a máximo 1200 px y calidad 85.
 - `semillas-palma-cera.jpg` - Imagen generada por IA para la ficha "Semillas de Palma de Cera" (categoría 3. Palmas): muestra el sobre de semillas con la plántula. `palmas-cocora.jpg` (foto de Pexels) queda disponible como imagen de paisaje/origen.
-
-## Estilos
-
-Las hojas de estilos están dentro de `css/` para mantener separados los estilos comunes de los estilos propios de cada página. Las rutas a imágenes desde CSS usan `../assets/` porque las hojas viven en esa carpeta.

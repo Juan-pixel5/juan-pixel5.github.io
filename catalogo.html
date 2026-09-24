@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Catálogo - Verde Andino" />
+  <title>Catálogo - Verde Andino</title>
+  <link rel="stylesheet" href="styles.css?v=6" />
+</head>
+<body class="page-catalogo">
+
+  <nav class="navbar">
+    <div class="navbar-inner">
+      <div class="navbar-brand">
+        <span class="navbar-brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 21.5c0-6.5 3.2-10.8 8.5-12.7-.9 8.4-4.3 11.6-8.5 12.7Z" />
+            <path d="M12 21.5C10.6 15 7.2 11.4 3.5 9.3c1 7.6 4.4 11.2 8.5 12.2Z" />
+            <path d="M12 21.5v-6.2" />
+          </svg>
+        </span>
+        <span class="navbar-brand-title">Verde Andino</span>
+        <span class="navbar-brand-sub">| Vivero Colombiano</span>
+      </div>
+      <ul class="navbar-links">
+        <li><a class="navbar-link tab-inicio" href="index.html">Inicio</a></li>
+        <li><a class="navbar-link tab-catalogo" href="catalogo.html" aria-current="page">Catalogo</a></li>
+        <li><a class="navbar-link tab-nosotros" href="nosotros.html">Nosotros</a></li>
+        <li><a class="navbar-link tab-contacto" href="contacto.html">Contactanos</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+      <section class="page-header page-header-lg">
+        <div class="container">
+          <p class="section-kicker section-kicker-light">Nuestro cultivo</p>
+          <h1>Catalogo</h1>
+          <p>8 lineas de cultivo, mas de 20 variedades nativas y ornamentales listas para tu hogar</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <input class="view-switch" type="radio" name="catalogo" id="cat-arboles" checked />
+          <input class="view-switch" type="radio" name="catalogo" id="cat-orquideas" />
+          <input class="view-switch" type="radio" name="catalogo" id="cat-palmas" />
+          <input class="view-switch" type="radio" name="catalogo" id="cat-suculentas" />
+          <input class="view-switch" type="radio" name="catalogo" id="cat-helechos" />
+          <input class="view-switch" type="radio" name="catalogo" id="cat-flores" />
+          <input class="view-switch" type="radio" name="catalogo" id="cat-aromaticas" />
+          <input class="view-switch" type="radio" name="catalogo" id="cat-macetas" />
+
+          <div class="catalog-tabs">
+            <label class="catalog-tab" for="cat-arboles">1. Arboles <span>3</span></label>
+            <label class="catalog-tab" for="cat-orquideas">2. Orquideas <span>3</span></label>
+            <label class="catalog-tab" for="cat-palmas">3. Palmas <span>2</span></label>
+            <label class="catalog-tab" for="cat-suculentas">4. Suculentas y Cactos <span>2</span></label>
+            <label class="catalog-tab" for="cat-helechos">5. Helechos y Follajes <span>2</span></label>
+            <label class="catalog-tab" for="cat-flores">6. Flores y Bromelias <span>2</span></label>
+            <label class="catalog-tab" for="cat-aromaticas">7. Aromaticas y Comestibles <span>2</span></label>
+            <label class="catalog-tab" for="cat-macetas">8. Macetas y Sustratos <span>2</span></label>
+          </div>
+
+          <p class="catalog-note">Precios de referencia en pesos colombianos (COP). Incluyen asesoria de siembra. Disponibilidad sujeta a temporada.</p>
+
+          <div class="catalog-panels">
+            <div class="catalog-panel panel-arboles">
+              <p class="catalog-intro">Arboles nativos y ornamentales cultivados en nuestro vivero: dan sombra, atraen aves y recuperan la flora andina.</p>
+              <div class="catalog-grid">
+                <article class="catalog-card">
+                  <div class="catalog-card-media">
+                    <img src="assets/img/palma-cera.jpg" alt="Palma de Cera del Quindio" />
+                    <span class="catalog-badge">Arbol nacional</span>
+                  </div>
+                  <div class="catalog-card-body">
+                    <h3>Palma de Cera del Quindio</h3>
+                    <p class="catalog-card-sci">Ceroxylon quindiuense</p>
+                    <p>El arbol nacional de Colombia. En su habitat alcanza hasta 60 metros; nosotros la entregamos joven, aclimatada al clima frio andino (2.500 - 3.000 m.s.n.m.).</p>
+                    <ul class="catalog-specs">
+                      <li><span>Luz</span>Sol pleno / media sombra</li>
+                      <li><span>Riego</span>Moderado, 2 veces por semana</li>
+                      <li><span>Tamano</span>30 cm, 1 m y 2 m</li>
+                      <li><span>Cuidado</span>Intermedio</li>
+                    </ul>
+                    <div class="catalog-card-footer">
+                      <span class="catalog-price">Desde <strong>$35.000</strong></span>
+                      <a class="catalog-cta" href="contacto.html">Cotizar</a>
+                    </div>
+                  </div>
+                </article>
+
+                <article class="catalog-card">
+                  <div class="catalog-card-media">
+                    <img src="assets/img/arbol-nativo-ceiba.jpg" alt="Ceiba, arbol nativo" />
+                    <span class="catalog-badge">Nativa</span>
+                  </div>
+                  <div class="catalog-card-body">
+                    <h3>Ceiba</h3>
+                    <p class="catalog-card-sci">Ceiba pentandra</p>
+                    <p>Arbol sagrado de la tradicion andina, de tronco robusto y copa amplia. Ideal para fincas, parques y corredores de sombra en clima templado y calido.</p>
+                    <ul class="catalog-specs">
+                      <li><span>Luz</span>Sol pleno</li>
+                      <li><span>Riego</span>Moderado, 2 veces por semana</li>
+                      <li><span>Tamano</span>50 cm a 1,20 m</li>
+                      <li><span>Cuidado</span>Facil</li>
+                    </ul>
+                    <div class="catalog-card-footer">
+                      <span class="catalog-price">Desde <strong>$45.000</strong></span>
+                      <a class="catalog-cta" href="contacto.html">Cotizar</a>
+                    </div>
+                  </div>
+                </article>
+
+                <article class="catalog-card">
+                  <div class="catalog-card-media">
+                    <img src="assets/img/reforestacion-arboles.jpg" alt="Paquete de reforestacion con arboles nativos" />
+                    <span class="catalog-badge">Proyectos</span>
+                  </div>
+                  <div class="catalog-card-body">
+                    <h3>Paquete de Reforestacion</h3>
+                    <p class="catalog-card-sci">Especies nativas surtidas</p>
+                    <p>Lotes de 25, 50 o 100 arboles nativos (yarumo, encenillo, arayan, guayacan, pito) con plan de siembra y acompanamiento tecnico para empresas y juntas de accion comunal.</p>
+                    <ul class="catalog-specs">
+                      <li><span>Luz</span>Sol pleno</li>
+                      <li><span>Riego</span>Riego de establecimiento</li>
+                      <li><span>Tamano</span>Planticas de 30 - 60 cm</li>
+                      <li><span>Cuidado</span>Acompanado</li>
+                    </ul>
+                    <div class="catalog-card-footer">
+                      <span class="catalog-price">Desde <strong>$250.000</strong></span>
+                      <a class="catalog-cta" href="contacto.html">Cotizar</a>
+                    </div>
+                  </div>
+                </article>
+              </div>
+
+              <div class="catalog-extra">
+                <h4>Tambien tenemos</h4>
+                <ul class="catalog-chips">
+                  <li>Arayan</li>
+                  <li>Guayacan rosado</li>
+                  <li>Guayacan amarillo</li>
+                  <li>Pito</li>
+                  <li>Yarumo</li>
+                  <li>Encenillo</li>
+                  <li>Roble negro</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="catalog-panel panel-orquideas">
+              <p class="catalog-intro">La flor nacional de Colombia y sus primas exoticas: plantas en maceta, listas para florecer en clima de montana o tierra caliente.</p>
+              <div class="catalog-grid">
+                <article class="catalog-card">
+                  <div class="catalog-card-media">
+                    <img src="assets/img/orquidea-cattleya.jpg" alt="Orquidea Cattleya" />
+                    <span class="catalog-badge">Flor nacional</span>
+                  </div>
+                  <div class="catalog-card-body">
+                    <h3>Orquidea Cattleya</h3>
+                    <p class="catalog-card-sci">Cattleya trianae</p>
+                    <p>La flor nacional: petalos grandes, perfumados y de colores intensos. Florece entre 2 y 3 veces al ano si recibe buena luz y una noche fresca.</p>
+                    <ul class="catalog-specs">
+                      <li><span>Luz</span>Luz filtrada, nunca sol directo</li>
+                      <li><span>Riego</span>2 veces por semana</li>
+                      <li><span>Tamano</span>Maceta 12 - 18 cm</li>
+                      <li><span>Cuidado</span>Intermedio</li>
+                    </ul>
+                    <div class="catalog-card-footer">
+                      <span class="catalog-price">Desde <strong>$55.000</strong></span>
+                      <a class="catalog-cta" href="contacto.html">Cotizar</a>
+                    </div>
+                  </div>
+                </article>
+
+                <article class="catalog-card">
+                  <div class="catalog-card-media">
+                    <img src="assets/img/orquidea-miltonia.jpg" alt="Orquidea Miltonia" />
+                    <span class="catalog-badge">Fragante</span>
+                  </div>
+                  <div class="catalog-card-body">
+                    <h3>Orquidea Miltonia</h3>
+                    <p class="catalog-card-sci">Miltonia x hybrida</p>
+                    <p>Conocida como "pensamiento" por su flor plana y aterciopelada. Una de las orquideas mas aromaticas: perfuma toda la sala al florecer.</p>
+                    <ul class="catalog-specs">
+                      <li><span>Luz</span>Sombra luminosa</li>
+                      <li><span>Riego</span>Frecuente, sin encharcar</li>
+                      <li><span>Tamano</span>Maceta 12 cm</li>
+                      <li><span>Cuidado</span>Intermedio</li>
+                    </ul>
+                    <div class="catalog-card-footer">
+                      <span class="catalog-price">Desde <strong>$65.000</strong></span>
+                      <a class="catalog-cta" href="contacto.html">Cotizar</a>
+                    </div>
+                  </div>
+                </article>
+
+                <article class="catalog-card">
+                  <div class="catalog-card-media">
+                    <img src="assets/img/orquidea-coleccion.jpg" alt="Orquideas de coleccion" />
+                    <span class="catalog-badge">Coleccion</span>
+                  </div>
+                  <div class="catalog-card-body">
+                    <h3>Orquideas de Coleccion</h3>
+                    <p class="catalog-card-sci">Oncidium, Masdevallia, Phalaenopsis, Dracula</p>
+                    <p>Especies de altura para coleccionistas: montadas en corcho o en maceta, con ficha de cultivo y garantia de aclimatacion de 30 dias.</p>
+                    <ul class="catalog-specs">
+                      <li><span>Luz</span>Sombra luminosa</li>
+                      <li><span>Riego</span>Segun especie</li>
+                      <li><span>Tamano</span>Maceta 8 - 14 cm</li>
+                      <li><span>Cuidado</span>Experto</li>
+                    </ul>
+                    <div class="catalog-card-footer">
+                      <span class="catalog-price">Desde <strong>$85.000</strong></span>
+                      <a class="catalog-cta" href="contacto.html">Cotizar</a>
+                    </div>
+                  </div>
+                </article>
+              </div>
+
+              <div class="catalog-extra">
+                <h4>Tambien tenemos</h4>
+                <ul class="catalog-chips">
+                  <li>Orquidea Phalaenopsis</li>
+                  <li>Oncidium</li>
+                  <li>Masdevallia</li>
+                  <li>Montaje en corcho</li>
+                  <li>Kit orquidea principiante</li>
+                  <li>Asesoria de orquideario</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="catalog-panel panel-palmas">
+              <p class="catalog-intro">Las palmas mas iconicas de los Andes colombianos, desde la semilla hasta ejemplares de buen tamano.</p>
+              <div class="catalog-grid">
+                <article class="catalog-card">
+                  <div class="catalog-card-media">
+                    <img src="assets/img/palma-maceta.jpg" alt="Palma de cera joven en maceta grande" />
+                    <span class="catalog-badge">Icono del Quindio</span>
+                  </div>
+                  <div class="catalog-card-body">
+                    <h3>Palma de Cera en Maceta</h3>
+                    <p class="catalog-card-sci">Ceroxylon quindiuense</p>
+                    <p>Ejemplares jovenes de la palma mas alta del mundo, criados en contenedor profundo para terrazas, antejardines y proyectos de paisajismo.</p>
+                    <ul class="catalog-specs">
+                      <li><span>Luz</span>Sol pleno / media sombra</li>
+                      <li><span>Riego</span>Moderado, 2 veces por semana</li>
+                      <li><span>Tamano</span>40 cm a 1,50 m</li>
+                      <li><span>Cuidado</span>Intermedio</li>
+                    </ul>
+                    <div class="catalog-card-footer">
+                      <span class="catalog-price">Desde <strong>$80.000</strong></span>
+                      <a class="catalog-cta" href="contacto.html">Cotizar</a>
+                    </div>
+                  </div>
+                </article>
+
+                <article class="catalog-card">
+                  <div class="catalog-card-media">
+                    <img src="assets/img/semillas-palma-cera.jpg" alt="Semillas de palma de cera dentro de un sobre de papel kraft, junto a una plántula en maceta" />
+                    <span class="catalog-badge">Desde semilla</span>
+                  </div>
+                  <div class="catalog-card-body">
+                    <h3>Semillas de Palma de Cera</h3>
+                    <p class="catalog-card-sci">Semilla certificada - germoplasma andino</p>
+                    <p>Sobres de 5, 10 o 25 semillas con instructivo de escarificacion y germinacion, mas el sustrato inicial incluido. Tiempo de germinacion: 3 a 6 meses.</p>
+                    <ul class="catalog-specs">
+                      <li><span>Luz</span>Sombra germinadora</li>
+                      <li><span>Riego</span>Humedad constante</li>
+                      <li><span>Tamano</span>Sobres de 5 - 25 semillas</li>
+                      <li><span>Cuidado</span>Paciente</li>
+                    </ul>
+                    <div class="catalog-card-footer">
+                      <span class="catalog-price">Desde <strong>$15.000</strong></span>
+                      <a class="catalog-cta" href="contacto.html">Cotizar</a>
+                    </div>
+                  </div>
+                </article>
+              </div>
+
+              <div class="catalog-extra">
+                <h4>Tambien tenemos</h4>
+                <ul class="catalog-chips">
+                  <li>Palma areca</li>
+                  <li>Palma abanico</li>
+                  <li>Palma kentia</li>
+                  <li>Macetas profundas para palma</li>
+                  <li>Trasplante a domicilio</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="catalog-panel panel-suculentas">
+              <p class="catalog-intro">Plantas resistentes y de bajo consumo de agua: perfectas para principiantes, escritorios y jardines secos.</p>
+              <div class="catalog-grid">
+                <article class="catalog-card">
+                  <div class="catalog-card-media">
+                    <img src="assets/img/suculenta-corona-fraile.jpg" alt="Suculenta Corona de Fraile" />
+                    <span class="catalog-badge">Mas vendida</span>
+                  </div>
+                  <div class="catalog-card-body">
+                    <h3>Suculenta Corona de Fraile</h3>
+                    <p class="catalog-card-sci">Euphorbia lactea</p>
+                    <p>Forma compacta y textura unica, con pequenas espinas y crecimiento en forma de candelabro. Practicamente imposible de perder.</p>
+                    <ul class="catalog-specs">
+                      <li><span>Luz</span>Sol pleno / interior luminoso</li>
+                      <li><span>Riego</span>Bajo, cada 10 - 15 dias</li>
+                      <li><span>Tamano</span>Maceta 8 - 14 cm</li>
+                      <li><span>Cuidado</span>Facil</li>
+                    </ul>
+                    <div class="catalog-card-footer">
+                      <span class="catalog-price">Desde <strong>$18.000</strong></span>
+                      <a class="catalog-cta" href="contacto.html">Cotizar</a>
+                    </div>
+                  </div>
+                </article>
+
+                <article class="catalog-card">
+                  <div class="catalog-card-media">
+                    <img src="assets/img/suculentas-variedad.jpg" alt="Mix de suculentas y cactos" />
+                    <span class="catalog-badge">Combo</span>
+                  </div>
+                  <div class="catalog-card-body">
+                    <h3>Mix de Suculentas y Cactos</h3>
+                    <p class="catalog-card-sci">Echeveria, Sedum, Crassula, Cactus erizo</p>
+                    <p>Seis plantas distintas en macetas de barro, listas para armar un jardin seco, una rocalla o un arreglo de mesa. Incluye grava decorativa.</p>
+                    <ul class="catalog-specs">
+                      <li><span>Luz</span>Sol pleno / interior luminoso</li>
+                      <li><span>Riego</span>Bajo, cada 10 - 15 dias</li>
+                      <li><span>Tamano</span>Macetas 6 - 10 cm</li>
+                      <li><span>Cuidado</span>Facil</li>
+                    </ul>
+                    <div class="catalog-card-footer">
+                      <span class="catalog-price">Desde <strong>$45.000</strong></span>
+                      <a class="catalog-cta" href="contacto.html">Cotizar</a>
+                    </div>
+                  </div>
+                </article>
+              </div>
+
+              <div class="catalog-extra">
+                <h4>Tambien tenemos</h4>
+                <ul class="catalog-chips">
+                  <li>Echeveria</li>
+                  <li>Sabila</li>
+                  <li>Yucca</li>
+                  <li>Cactus de flor</li>
+                  <li>Sedum rastrero</li>
+                  <li>Jardin vertical suculento</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="catalog-panel panel-helechos">
+              <p class="catalog-intro">Hojas finas y elegantes para banos, interiores humedos, patios sombreados y jardines de sombra.</p>
+              <div class="catalog-grid">
+                <article class="catalog-card">
+                  <div class="catalog-card-media">
+                    <img src="assets/img/helecho-culantrillo.jpg" alt="Helecho Culantrillo" />
+                    <span class="catalog-badge">Interior</span>
+                  </div>
+                  <div class="catalog-card-body">
+                    <h3>Helecho Culantrillo</h3>
+                    <p class="catalog-card-sci">Adiantum raddianum</p>
+                    <p>Frondes finas y delicadas que se mueven con la brisa. Purifica el ambiente y adora los banos con luz indirecta y buena humedad.</p>
+                    <ul class="catalog-specs">
+                      <li><span>Luz</span>Sombra / luz indirecta</li>
+                      <li><span>Riego</span>Alto, sustrato humedo</li>
+                      <li><span>Tamano</span>Maceta 12 - 20 cm</li>
+                      <li><span>Cuidado</span>Intermedio</li>
+                    </ul>
+                    <div class="catalog-card-footer">
+                      <span class="catalog-price">Desde <strong>$22.000</strong></span>
+                      <a class="catalog-cta" href="contacto.html">Cotizar</a>
+                    </div>
+                  </div>
+                </article>
+
+                <article class="catalog-card">
+                  <div class="catalog-card-media">
+                    <img src="assets/img/helechos-follajes.jpg" alt="Mix de helechos y follajes" />
+                    <span class="catalog-badge">Humedad</span>
+                  </div>
+                  <div class="catalog-card-body">
+                    <h3>Helecho de Pluma y Follajes</h3>
+                    <p class="catalog-card-sci">Nephrolepis, Asplenium, musgo decorativo</p>
+                    <p>Conjunto de helechos colgantes y follajes de hoja ancha para crear rincones frescos. Recomendado para patios interiores y muros verdes.</p>
+                    <ul class="catalog-specs">
+                      <li><span>Luz</span>Sombra / media sombra</li>
+                      <li><span>Riego</span>Alto, 3 veces por semana</li>
+                      <li><span>Tamano</span>Maceta 14 - 25 cm</li>
+                      <li><span>Cuidado</span>Facil</li>
+                    </ul>
+                    <div class="catalog-card-footer">
+                      <span class="catalog-price">Desde <strong>$28.000</strong></span>
+                      <a class="catalog-cta" href="contacto.html">Cotizar</a>
+                    </div>
+                  </div>
+                </article>
+              </div>
+
+              <div class="catalog-extra">
+                <h4>Tambien tenemos</h4>
+                <ul class="catalog-chips">
+                  <li>Helecho helechal</li>
+                  <li>Helecho nido de ave</li>
+                  <li>Calathea</li>
+                  <li>Musgo decorativo</li>
+                  <li>Montaje en tronco</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="catalog-panel panel-flores">
+              <p class="catalog-intro">Color durante todo el ano: plantas floridas de interior, de temporada y arreglos para eventos.</p>
+              <div class="catalog-grid">
+                <article class="catalog-card">
+                  <div class="catalog-card-media">
+                    <img src="assets/img/bromelia-guzmania.jpg" alt="Bromelia Guzmania" />
+                    <span class="catalog-badge">Floracion larga</span>
+                  </div>
+                  <div class="catalog-card-body">
+                    <h3>Bromelia Guzmania</h3>
+                    <p class="catalog-card-sci">Guzmania lingulata</p>
+                    <p>Planta tropical de bracteas rojas, naranjas o amarillas que duran meses. Crece en los bosques humedos colombianos y adora los interiores luminosos.</p>
+                    <ul class="catalog-specs">
+                      <li><span>Luz</span>Luz indirecta brillante</li>
+                      <li><span>Riego</span>Moderado, en el centro de la roseta</li>
+                      <li><span>Tamano</span>Maceta 14 - 20 cm</li>
+                      <li><span>Cuidado</span>Facil</li>
+                    </ul>
+                    <div class="catalog-card-footer">
+                      <span class="catalog-price">Desde <strong>$45.000</strong></span>
+                      <a class="catalog-cta" href="contacto.html">Cotizar</a>
+                    </div>
+                  </div>
+                </article>
+
+                <article class="catalog-card">
+                  <div class="catalog-card-media">
+                    <img src="assets/img/flores-temporada.jpg" alt="Flores de temporada" />
+                    <span class="catalog-badge">Temporada</span>
+                  </div>
+                  <div class="catalog-card-body">
+                    <h3>Flores de Temporada</h3>
+                    <p class="catalog-card-sci">Begonia, Impatiens, Petunia, Geranio</p>
+                    <p>Bandejas de 6 o 12 unidades, en flor o en boton, para sembrar en jardineras, balcones y antejardines. Rotamos variedades cada mes.</p>
+                    <ul class="catalog-specs">
+                      <li><span>Luz</span>Sol pleno / media sombra</li>
+                      <li><span>Riego</span>Diario en verano</li>
+                      <li><span>Tamano</span>Bandejas de 6 y 12</li>
+                      <li><span>Cuidado</span>Facil</li>
+                    </ul>
+                    <div class="catalog-card-footer">
+                      <span class="catalog-price">Desde <strong>$25.000</strong></span>
+                      <a class="catalog-cta" href="contacto.html">Cotizar</a>
+                    </div>
+                  </div>
+                </article>
+              </div>
+
+              <div class="catalog-extra">
+                <h4>Tambien tenemos</h4>
+                <ul class="catalog-chips">
+                  <li>Anturio rojo</li>
+                  <li>Macetillas floridas</li>
+                  <li>Flores cortadas</li>
+                  <li>Arreglos para eventos</li>
+                  <li>Centros de mesa</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="catalog-panel panel-aromaticas">
+              <p class="catalog-intro">Hierbas de cocina y plantas comestibles cultivadas sin quimicos, siempre frescas y listas para cosechar.</p>
+              <div class="catalog-grid">
+                <article class="catalog-card">
+                  <div class="catalog-card-media">
+                    <img src="assets/img/aromaticas-hierbas.jpg" alt="Hierbas aromaticas en maceta" />
+                    <span class="catalog-badge">Cosecha diaria</span>
+                  </div>
+                  <div class="catalog-card-body">
+                    <h3>Hierbas Aromaticas</h3>
+                    <p class="catalog-card-sci">Albahaca, menta, oregano, tomillo, cilantro, romero</p>
+                    <p>Macetas individuales o surtidas de hierbas para la cocina, el balcon o la terraza. Cultivadas en sustrato organico, sin agroquimicos.</p>
+                    <ul class="catalog-specs">
+                      <li><span>Luz</span>Sol pleno, minimo 4 horas</li>
+                      <li><span>Riego</span>Moderado, diario en clima calido</li>
+                      <li><span>Tamano</span>Maceta 10 - 14 cm</li>
+                      <li><span>Cuidado</span>Facil</li>
+                    </ul>
+                    <div class="catalog-card-footer">
+                      <span class="catalog-price">Desde <strong>$8.000</strong></span>
+                      <a class="catalog-cta" href="contacto.html">Cotizar</a>
+                    </div>
+                  </div>
+                </article>
+
+                <article class="catalog-card">
+                  <div class="catalog-card-media">
+                    <img src="assets/img/kit-huerta.jpg" alt="Kit de huerta casera con hierbas aromaticas" />
+                    <span class="catalog-badge">Kit completo</span>
+                  </div>
+                  <div class="catalog-card-body">
+                    <h3>Kit Huerta Casera</h3>
+                    <p class="catalog-card-sci">6 hierbas + jardinera + sustrato + abono</p>
+                    <p>Todo lo necesario para empezar tu huerta en apartamento: jardinera de madera, seis hierbas aromaticas, sustrato organico, abono y guia de cultivo.</p>
+                    <ul class="catalog-specs">
+                      <li><span>Luz</span>Sol pleno / balcon soleado</li>
+                      <li><span>Riego</span>Moderado</li>
+                      <li><span>Tamano</span>Jardinera de 60 cm</li>
+                      <li><span>Cuidado</span>Facil</li>
+                    </ul>
+                    <div class="catalog-card-footer">
+                      <span class="catalog-price">Desde <strong>$95.000</strong></span>
+                      <a class="catalog-cta" href="contacto.html">Cotizar</a>
+                    </div>
+                  </div>
+                </article>
+              </div>
+
+              <div class="catalog-extra">
+                <h4>Tambien tenemos</h4>
+                <ul class="catalog-chips">
+                  <li>Hierbabuena</li>
+                  <li>Cilantro</li>
+                  <li>Romero</li>
+                  <li>Lavanda</li>
+                  <li>Tomate cherry</li>
+                  <li>Aji picante</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="catalog-panel panel-macetas">
+              <p class="catalog-intro">Los insumos para que tus plantas crezcan sanas: macetas, sustratos preparados por nosotros y abono organico.</p>
+              <div class="catalog-grid">
+                <article class="catalog-card">
+                  <div class="catalog-card-media">
+                    <img src="assets/img/macetas-sustratos.jpg" alt="Macetas y jardineras" />
+                    <span class="catalog-badge">Insumos</span>
+                  </div>
+                  <div class="catalog-card-body">
+                    <h3>Macetas y Jardineras</h3>
+                    <p class="catalog-card-sci">Barro, ceramica, fibra y plastico reciclado</p>
+                    <p>Todos los tamanos, desde macetas de 6 cm para suculentas hasta jardineras de 80 cm y tiestos grandes para palmas y arboles jovenes.</p>
+                    <ul class="catalog-specs">
+                      <li><span>Tamano</span>6 cm a 80 cm</li>
+                      <li><span>Uso</span>Interior y exterior</li>
+                      <li><span>Extras</span>Platillos y drenaje</li>
+                      <li><span>Envio</span>Bogota y Chia</li>
+                    </ul>
+                    <div class="catalog-card-footer">
+                      <span class="catalog-price">Desde <strong>$10.000</strong></span>
+                      <a class="catalog-cta" href="contacto.html">Cotizar</a>
+                    </div>
+                  </div>
+                </article>
+
+                <article class="catalog-card">
+                  <div class="catalog-card-media">
+                    <img src="assets/img/sustrato-abono.jpg" alt="Sustratos y abono organico" />
+                    <span class="catalog-badge">Organico</span>
+                  </div>
+                  <div class="catalog-card-body">
+                    <h3>Sustratos y Abonos Organicos</h3>
+                    <p class="catalog-card-sci">Tierra de hoja, corteza de pino, compost, humus de lombriz</p>
+                    <p>Mezclas preparadas en el vivero: sustrato para orquideas, para suculentas, para huerta y para trasplante de arboles. Tambien abono foliar y humus.</p>
+                    <ul class="catalog-specs">
+                      <li><span>Presentacion</span>2 kg, 10 kg y 25 kg</li>
+                      <li><span>Tipos</span>Orquideas, suculentas, huerta</li>
+                      <li><span>Origen</span>Compost propio</li>
+                      <li><span>Envio</span>Bogota y Chia</li>
+                    </ul>
+                    <div class="catalog-card-footer">
+                      <span class="catalog-price">Desde <strong>$15.000</strong></span>
+                      <a class="catalog-cta" href="contacto.html">Cotizar</a>
+                    </div>
+                  </div>
+                </article>
+              </div>
+
+              <div class="catalog-extra">
+                <h4>Tambien tenemos</h4>
+                <ul class="catalog-chips">
+                  <li>Perlita y grava</li>
+                  <li>Corteza de pino</li>
+                  <li>Humus de lombriz</li>
+                  <li>Abono foliar</li>
+                  <li>Fertilizante para orquideas</li>
+                  <li>Herramientas de jardineria</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="catalog-help">
+            <p class="catalog-help-title">No encuentras lo que buscas?</p>
+            <p class="catalog-help-text">Cultivamos mas de 20 variedades nativas y hacemos pedidos especiales para paisajismo, empresas y conjuntos residenciales.</p>
+            <a class="catalog-help-cta" href="contacto.html">Escribenos y lo preparamos</a>
+          </div>
+        </div>
+      </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div>
+        <h3>Verde Andino</h3>
+        <p class="footer-brand-sub">Vivero familiar - Colombia</p>
+        <p class="footer-tagline">"Sembramos futuro, raiz a raiz"</p>
+      </div>
+      <div>
+        <h3>Navegacion</h3>
+        <ul>
+          <li><a class="footer-link" href="index.html">Inicio</a></li>
+          <li><a class="footer-link" href="catalogo.html">Catalogo</a></li>
+          <li><a class="footer-link" href="nosotros.html">Nosotros</a></li>
+          <li><a class="footer-link" href="contacto.html">Contactanos</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Contacto</h3>
+        <p>- Bogota, Colombia</p>
+        <p>- +57 300 123 4567</p>
+        <p>- info@verdeandino.co</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      Verde Andino &copy; 2025
+    </div>
+  </footer>
+
+</body>
+</html>

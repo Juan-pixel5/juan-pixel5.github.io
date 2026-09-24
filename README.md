@@ -4,23 +4,19 @@ Página web del vivero Verde Andino.
 
 ## Estructura
 
-- `index.html` - Una sola página con 4 vistas (Inicio, Catálogo, Nosotros, Contáctanos) y carrusel de videos, todo con HTML + CSS puro (sin JavaScript para la navegación).
-- `styles.css` - Estilos del sitio.
+El sitio está organizado como un sitio estático multipágina. El contenido HTML de cada vista está separado en su propio archivo y todos comparten una única hoja de estilos:
 
-## Mejora visual (Inicio y Contáctanos)
+- `index.html` - Inicio, misión, visión, plantas destacadas, galería y videos.
+- `catalogo.html` - Catálogo de 8 categorías y sus fichas de producto.
+- `nosotros.html` - Historia, valores, trayectoria y equipo.
+- `contacto.html` - Información de contacto, formulario y cómo llegar.
+- `styles.css` - Estilos compartidos por todas las páginas.
 
-Se mantiene la misma paleta, tipografía Arial y la navegación CSS-only; solo se agregó profundidad y contraste para que el sitio no se vea apagado:
-
-- **Inicio:** nueva portada (`hero`) con la foto del vivero, título, dos botones que llevan al catálogo y al contacto, y una fila de datos (variedades, hectáreas, años). Misión y Visión pasan a tarjetas con icono, la lista de plantas nativas se convierte en fichas con foto y la galería tiene tarjetas con etiqueta, sombra y zoom suave de la imagen.
-- **Contáctanos:** encabezado con foto de fondo y accesos rápidos (teléfono, correo, horario), datos de contacto en tarjetas con icono, formulario sobre tarjeta con foco resaltado y sección "Cómo llegar" con foto.
-- El bloque de videos, el catálogo y el pie de página conservan su estructura con un acabado más definido (degradados oscuros, botones redondos y títulos con subrayado).
-- `assets/img/` - Imágenes del vivero y del catálogo.
-- `assets/video/` - Videos locales del carrusel.
-- `enlaces-descarga.txt`, `descargar-assets.sh`, `descargar-assets.ps1` - Fuentes y scripts de los assets originales.
+La navegación usa enlaces HTML normales entre páginas, por lo que funciona directamente en GitHub Pages sin depender de JavaScript. El carrusel de videos de `index.html` mantiene sus controles CSS y un pequeño script para pausar el video que deja de estar visible.
 
 ## Catálogo
 
-El catálogo tiene 8 categorías (pestañas) con 18 fichas de producto en total. Cada ficha incluye foto, nombre científico, descripción, cuidados (luz, riego, tamaño, nivel), precio de referencia en COP y un botón que lleva a la vista de contacto.
+El catálogo tiene 8 categorías (pestañas) con 18 fichas de producto en total. Cada ficha incluye foto, nombre científico, descripción, cuidados (luz, riego, tamaño, nivel), precio de referencia en COP y un botón que lleva a la página de contacto.
 
 1. Árboles
 2. Orquídeas
